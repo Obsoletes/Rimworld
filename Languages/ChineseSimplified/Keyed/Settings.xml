@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--Enable damage-->
+  <EnableDamage>启用伤害</EnableDamage>
+  <!--Enable player damage-->
+  <EnablePlayerDamage>启用对玩家阵营的伤害</EnablePlayerDamage>
+  <!--Enable random mental states-->
+  <EnableRandomMentalStates>启用随机崩溃</EnableRandomMentalStates>
+  <!--Enable storyteller-->
+  <EnableStoryteller>启用叙事者</EnableStoryteller>
+  <!--Enable random diseases-->
+  <EnableRandomDiseases>启用随机疾病</EnableRandomDiseases>
+  <!--No animals-->
+  <NoAnimals>禁止动物</NoAnimals>
+  <!--Unlimited power-->
+  <UnlimitedPower>无限能源</UnlimitedPower>
+  <!--Path through walls-->
+  <PathThroughWalls>允许路径穿墙</PathThroughWalls>
+  <!--Instant recruit-->
+  <InstantRecruit>瞬间招募</InstantRecruit>
+  <!--Always social fight-->
+  <AlwaysSocialFight>总是内部斗争</AlwaysSocialFight>
+  <!--Always do lovin-->
+  <AlwaysDoLovin>总是做爱</AlwaysDoLovin>
+  <!--Detect RegionListers bugs-->
+  <DetectRegionListersBugs>检测区域列表错误</DetectRegionListersBugs>
+  <!--Instant visitors gift-->
+  <InstantVisitorsGift>即时访客礼物</InstantVisitorsGift>
+  <!--Low FPS-->
+  <LowFPS>低FPS</LowFPS>
+  <!--Fast research-->
+  <FastResearch>快速研究</FastResearch>
+  <!--Fast learning-->
+  <FastLearning>快速学习</FastLearning>
+  <!--Fast ecology-->
+  <FastEcology>快速生态</FastEcology>
+  <!--Fast ecology (regrow rate only)-->
+  <FastEcologyRegrowRateOnly>快速生态(仅生长)</FastEcologyRegrowRateOnly>
+  <!--Fast crafting-->
+  <FastCrafting>快速制作</FastCrafting>
+  <!--Fast caravans-->
+  <FastCaravans>商队快速移动</FastCaravans>
+  <!--Activate all building demands-->
+  <ActivateAllBuildingDemands>激活所有建筑需求</ActivateAllBuildingDemands>
+  <!--Activate all ideo roles-->
+  <ActivateAllIdeoRoles>激活所有文化角色</ActivateAllIdeoRoles>
+  <!--Show LocomotionUrgency-->
+  <ShowLocomotionUrgency>显示移动紧迫性</ShowLocomotionUrgency>
+  <!--Play ritual ambience sound-->
+  <PlayRitualAmbience>播放仪式气氛音效</PlayRitualAmbience>
+  <!--Draw fog-->
+  <DrawFog>绘制迷雾</DrawFog>
+  <!--Draw snow-->
+  <DrawSnow>绘制雪</DrawSnow>
+  <!--Draw terrain-->
+  <DrawTerrain>绘制地板</DrawTerrain>
+  <!--Draw water-->
+  <DrawTerrainWater>绘制水</DrawTerrainWater>
+  <!--Draw dynamic Things-->
+  <DrawThingsDynamic>绘制动态物品</DrawThingsDynamic>
+  <!--Draw printed Things-->
+  <DrawThingsPrinted>绘制基础物品</DrawThingsPrinted>
+  <!--Draw shadows-->
+  <DrawShadows>绘制影子</DrawShadows>
+  <!--Draw lighting overlay-->
+  <DrawLightingOverlay>绘制光照覆盖层</DrawLightingOverlay>
+  <!--Draw world overlays-->
+  <DrawWorldOverlays>绘制世界覆盖层</DrawWorldOverlays>
+  <!--Draw paths-->
+  <DrawPaths>绘制路径</DrawPaths>
+  <!--Draw cast position search-->
+  <DrawCastPositionSearch>绘制威胁点搜寻</DrawCastPositionSearch>
+  <!--Draw destination search-->
+  <DrawDestSearch>绘制目的地搜寻</DrawDestSearch>
+  <!--Draw style search-->
+  <DrawStyleSearch>绘制样式搜寻</DrawStyleSearch>
+  <!--Draw section edges-->
+  <DrawSectionEdges>绘制分区线</DrawSectionEdges>
+  <!--Draw river debug-->
+  <DrawRiverDebug>绘制河流调试</DrawRiverDebug>
+  <!--Draw Pawn debug-->
+  <DrawPawnDebug>绘制生物调试</DrawPawnDebug>
+  <!--Draw Pawn rotator target-->
+  <DrawPawnRotatorTarget>绘制生物旋转目标</DrawPawnRotatorTarget>
+  <!--Draw regions-->
+  <DrawRegions>绘制区域</DrawRegions>
+  <!--Draw region links-->
+  <DrawRegionLinks>绘制区域连接处</DrawRegionLinks>
+  <!--Highlight region update-->
+  <DrawRegionDirties>高亮区域更新</DrawRegionDirties>
+  <!--Highlight Region traversal-->
+  <DrawRegionTraversal>高亮区域遍历</DrawRegionTraversal>
+  <!--Highlight Things in Region-->
+  <DrawRegionThings>高亮区域中的物品</DrawRegionThings>
+  <!--Draw Districts-->
+  <DrawDistricts>绘制地区</DrawDistricts>
+  <!--Draw Rooms-->
+  <DrawRooms>绘制房间</DrawRooms>
+  <!--Draw power-->
+  <DrawPower>绘制电源</DrawPower>
+  <!--Draw PowerNetGrid-->
+  <DrawPowerNetGrid>绘制电源</DrawPowerNetGrid>
+  <!--Draw opportunistic jobs-->
+  <DrawOpportunisticJobs>绘制工作机会</DrawOpportunisticJobs>
+  <!--Draw tooltip edges-->
+  <DrawTooltipEdges>绘制提示栏边缘</DrawTooltipEdges>
+  <!--Draw recorded noise-->
+  <DrawRecordedNoise>绘制记录的噪音</DrawRecordedNoise>
+  <!--Draw food search from mouse-->
+  <DrawFoodSearchFromMouse>绘制用鼠标搜索食物</DrawFoodSearchFromMouse>
+  <!--Draw prey info-->
+  <DrawPreyInfo>绘制猎食目标</DrawPreyInfo>
+  <!--Draw glow-->
+  <DrawGlow>绘制发光</DrawGlow>
+  <!--Draw avoid grid-->
+  <DrawAvoidGrid>绘制规避区</DrawAvoidGrid>
+  <!--Draw breaching grid-->
+  <DrawBreachingGrid>绘制违背区</DrawBreachingGrid>
+  <!--Draw breaching noise-->
+  <DrawBreachingNoise>绘制违背噪声</DrawBreachingNoise>
+  <!--Draw Lords-->
+  <DrawLords>绘制领主</DrawLords>
+  <!--Draw duties-->
+  <DrawDuties>绘制职责</DrawDuties>
+  <!--Draw shooting-->
+  <DrawShooting>绘制射击</DrawShooting>
+  <!--Draw infestation chance-->
+  <DrawInfestationChance>绘制感染几率</DrawInfestationChance>
+  <!--Draw steal debug-->
+  <DrawStealDebug>绘制钢铁调试</DrawStealDebug>
+  <!--Draw deep resources-->
+  <DrawDeepResources>绘制地下资源</DrawDeepResources>
+  <!--Draw attack target scores-->
+  <DrawAttackTargetScores>绘制攻击点数资源</DrawAttackTargetScores>
+  <!--Draw interaction cells-->
+  <DrawInteractionCells>绘制交互点</DrawInteractionCells>
+  <!--Draw doors debug-->
+  <DrawDoorsDebug>绘制门调试</DrawDoorsDebug>
+  <!--Draw dest reservations-->
+  <DrawDestReservations>绘制预定目的地</DrawDestReservations>
+  <!--Draw damage rects-->
+  <DrawDamageRects>绘制伤害矩阵</DrawDamageRects>
+  <!--Inspect Game-->
+  <WriteGame>检查游戏信息</WriteGame>
+  <!--Inspect Steam items-->
+  <WriteSteamItems>检查Steam物品</WriteSteamItems>
+  <!--Inspect Concepts-->
+  <WriteConcepts>检查概念</WriteConcepts>
+  <!--Inspect reservations-->
+  <WriteReservations>检查保留物</WriteReservations>
+  <!--Inspect path costs-->
+  <WritePathCosts>检查路径成本</WritePathCosts>
+  <!--Inspect fertility-->
+  <WriteFertility>检查生育能力</WriteFertility>
+  <!--Inspect LinkFlags-->
+  <WriteLinkFlags>检查链接标识</WriteLinkFlags>
+  <!--Inspect cover-->
+  <WriteCover>检查遮盖</WriteCover>
+  <!--Inspect cell contents-->
+  <WriteCellContents>检查单元格内容</WriteCellContents>
+  <!--Inspect MusicManager play-->
+  <WriteMusicManagerPlay>检查音乐管理器播放内容</WriteMusicManagerPlay>
+  <!--Inspect storyteller-->
+  <WriteStoryteller>检查叙事者</WriteStoryteller>
+  <!--Inspect playing sounds-->
+  <WritePlayingSounds>检查播放中音乐</WritePlayingSounds>
+  <!--Inspect sound events record-->
+  <WriteSoundEventsRecord>检查音乐事件记录</WriteSoundEventsRecord>
+  <!--Inspect mote saturation-->
+  <WriteMoteSaturation>检查微粒饱和度</WriteMoteSaturation>
+  <!--Inspect snow depth-->
+  <WriteSnowDepth>检查积雪深度</WriteSnowDepth>
+  <!--Inspect ecosystem-->
+  <WriteEcosystem>检查生态系统</WriteEcosystem>
+  <!--Inspect recent strikes-->
+  <WriteRecentStrikes>检查上次袭击</WriteRecentStrikes>
+  <!--Inspect beauty-->
+  <WriteBeauty>检查美观度</WriteBeauty>
+  <!--Inspect repairable buildings-->
+  <WriteListRepairableBldgs>检查可修复建筑</WriteListRepairableBldgs>
+  <!--Inspect filth list in home area-->
+  <WriteListFilthInHomeArea>检查居住区污渍</WriteListFilthInHomeArea>
+  <!--Inspect haulable list-->
+  <WriteListHaulables>检查居住区污渍</WriteListHaulables>
+  <!--Inspect mergeable list-->
+  <WriteListMergeables>检查可合并清单</WriteListMergeables>
+  <!--Inspect total snow depth-->
+  <WriteTotalSnowDepth>检查整体雪深度</WriteTotalSnowDepth>
+  <!--Inspect colony reachability-->
+  <WriteCanReachColony>检查殖民地可达性</WriteCanReachColony>
+  <!--Inspect mental state calcs-->
+  <WriteMentalStateCalcs>检查精神状态计算</WriteMentalStateCalcs>
+  <!--Inspect wind-->
+  <WriteWind>检查风</WriteWind>
+  <!--Inspect terrain-->
+  <WriteTerrain>检查地板</WriteTerrain>
+  <!--Inspect apparel score-->
+  <WriteApparelScore>检查装备评分</WriteApparelScore>
+  <!--Inspect work settings-->
+  <WriteWorkSettings>检查工作设置</WriteWorkSettings>
+  <!--Inspect SkyManager-->
+  <WriteSkyManager>检查天空管理器</WriteSkyManager>
+  <!--Inspect memory usage-->
+  <WriteMemoryUsage>检查内存使用情况</WriteMemoryUsage>
+  <!--Inspect map's GameConditions-->
+  <WriteMapGameConditions>检查地图的游戏状态</WriteMapGameConditions>
+  <!--Inspect attack targets-->
+  <WriteAttackTargets>检查攻击目标</WriteAttackTargets>
+  <!--Inspect ropes and pens-->
+  <WriteRopesAndPens>检查绳索和笔</WriteRopesAndPens>
+  <!--Inspect Room roles-->
+  <WriteRoomRoles>检查房间职能</WriteRoomRoles>
+  <!--Log incap chance (not used)-->
+  <LogIncapChance>记录麻醉机会(未使用)</LogIncapChance>
+  <!--Log input-->
+  <LogInput>记录输入</LogInput>
+  <!--Log apparel generation-->
+  <LogApparelGeneration>记录装备代数</LogApparelGeneration>
+  <!--Log Lord's Toil transitions-->
+  <!--EMM-->
+  <LogLordToilTransitions>记录目标转变</LogLordToilTransitions>
+  <!--Log grammar resolution-->
+  <LogGrammarResolution>记录语法解析</LogGrammarResolution>
+  <!--Log combat log mouseover-->
+  <LogCombatLogMouseover>记录鼠标悬停处战斗日志</LogCombatLogMouseover>
+  <!--Log cause of death-->
+  <LogCauseOfDeath>记录死亡原因</LogCauseOfDeath>
+  <!--Log map load-->
+  <LogMapLoad>记录地图目标</LogMapLoad>
+  <!--Log tutor-->
+  <LogTutor>记录教程</LogTutor>
+  <!--Log Signals-->
+  <LogSignals>记录信号</LogSignals>
+  <!--Log WorldPawnGC-->
+  <LogWorldPawnGC>记录世界生物GC</LogWorldPawnGC>
+  <!--Log tale recording-->
+  <LogTaleRecording>记录故事记录</LogTaleRecording>
+  <!--Log hourly screenshot-->
+  <LogHourlyScreenshot>记录每小时记录截图</LogHourlyScreenshot>
+  <!--Log filth summary-->
+  <LogFilthSummary>记录污秽摘要</LogFilthSummary>
+  <!--Log carried between Jobs-->
+  <LogCarriedBetweenJobs>记录工作间携带的</LogCarriedBetweenJobs>
+  <!--Log Complex gen points-->
+  <LogComplexGenPoints>记录复杂生成点</LogComplexGenPoints>
+  <!--Debug apparel optimization-->
+  <DebugApparelOptimize>服装优化调试</DebugApparelOptimize>
+  <!--Show all room stats-->
+  <ShowAllRoomStats>显示全部房间统计</ShowAllRoomStats>
+  <!--Show float menu WorkGivers-->
+  <ShowFloatMenuWorkGivers>显示工作给予浮动菜单</ShowFloatMenuWorkGivers>
+  <!--Never force normal speed-->
+  <NeverForceNormalSpeed>从不强制普通速度</NeverForceNormalSpeed>
+</LanguageData>

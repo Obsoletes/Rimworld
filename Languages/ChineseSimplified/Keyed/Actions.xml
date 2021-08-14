@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--Atlas Rebuild-->
+  <DebugAction_AtlasRebuild>重建Atlas资源</DebugAction_AtlasRebuild>
+  <!--Set Source Precept-->
+  <DebugAction_SetSourcePrecept>设置戒律</DebugAction_SetSourcePrecept>
+  <!--Set Ideo-->
+  <DebugAction_SetIdeo>设置文化</DebugAction_SetIdeo>
+  <!--Add Slave-->
+  <DebugAction_AddSlave>添加奴隶</DebugAction_AddSlave>
+  <!--Suppression +10%-->
+  <DebugAction_SuppressionPlus10>压制+10%</DebugAction_SuppressionPlus10>
+  <!--Suppression -10%-->
+  <DebugAction_SuppressionMinus10>压制-10%</DebugAction_SuppressionMinus10>
+  <!--Clear suppression schedule-->
+  <DebugAction_ResetSuppresionSchedule>清除抑制计划</DebugAction_ResetSuppresionSchedule>
+  <!--Will +1-->
+  <DebugAction_WillPlus1>毅力+1</DebugAction_WillPlus1>
+  <!--Will -1-->
+  <DebugAction_WillMinus1>毅力-1</DebugAction_WillMinus1>
+  <!--Start slave rebellion (random)-->
+  <DebugAction_StartSlaveRebellion>开始奴隶叛乱(随机)</DebugAction_StartSlaveRebellion>
+  <!--Start slave rebellion (aggressive)-->
+  <DebugAction_StartSlaveRebellionAggressive>开始奴隶叛乱(侵略)</DebugAction_StartSlaveRebellionAggressive>
+  <!--Change style-->
+  <DebugAction_ChangeStyle>改变外观</DebugAction_ChangeStyle>
+  <!--Request style change-->
+  <DebugAction_RequestStyleChange>期望改变外观</DebugAction_RequestStyleChange>
+  <!--Hack 100%-->
+  <DebugAction_CompleteHack>Hack+100%</DebugAction_CompleteHack>
+  <!--Hack +10%-->
+  <DebugAction_Hack10>Hack+10%</DebugAction_Hack10>
+  <!--Darklight at position-->
+  <DebugAction_DarklightAtPosition>目标地点黑暗</DebugAction_DarklightAtPosition>
+  <!--Do trade caravan arrival...-->
+  <DebugAction_DoTradeCaravanSpecific>贸易远行队到达</DebugAction_DoTradeCaravanSpecific>
+  <!--Execute raid with points...-->
+  <DebugAction_ExecuteRaidWithPoints>执行X点数的袭击</DebugAction_ExecuteRaidWithPoints>
+  <!--Execute raid with faction...-->
+  <DebugAction_ExecuteRaidWithFaction>执行X派系的袭击</DebugAction_ExecuteRaidWithFaction>
+  <!--Execute raid with specifics...-->
+  <DebugAction_ExecuteRaidWithSpecifics>执行详细的袭击</DebugAction_ExecuteRaidWithSpecifics>
+  <!--Generate map-->
+  <DebugAction_GenerateMap>生成地图</DebugAction_GenerateMap>
+  <!--Destroy map-->
+  <DebugAction_DestroyMap>摧毁地图</DebugAction_DestroyMap>
+  <!--Leak map...-->
+  <DebugAction_LeakMap>泄露地图</DebugAction_LeakMap>
+  <!--Print leaked map...-->
+  <DebugAction_PrintLeakedMap>打印被泄露的地图</DebugAction_PrintLeakedMap>
+  <!--Add game condition...-->
+  <DebugAction_AddGameCondition>添加游戏条件</DebugAction_AddGameCondition>
+  <!--Remove game condition...-->
+  <DebugAction_RemoveGameCondition>移除游戏条件</DebugAction_RemoveGameCondition>
+  <!--Transfer to another map...-->
+  <DebugAction_Transfer>转移到另一地图</DebugAction_Transfer>
+  <!--Change map...-->
+  <DebugAction_ChangeMap>切换地图</DebugAction_ChangeMap>
+  <!--Regenerate current map-->
+  <DebugAction_RegenerateCurrentMap>重新生成当前地图</DebugAction_RegenerateCurrentMap>
+  <!--Generate map with caves-->
+  <DebugAction_GenerateMapWithCaves>生成有洞穴的地图</DebugAction_GenerateMapWithCaves>
+  <!--Run MapGenerator...-->
+  <DebugAction_RunMapGenerator>运行地图生成器</DebugAction_RunMapGenerator>
+  <!--Force reform in current map-->
+  <DebugAction_ForceReformInCurrentMap>从当前地图离开</DebugAction_ForceReformInCurrentMap>
+  <!--Destroy all plants-->
+  <DebugAction_DestroyAllPlants>摧毁所有植物</DebugAction_DestroyAllPlants>
+  <!--Destroy all Things-->
+  <DebugAction_DestroyAllThings>摧毁所有物品</DebugAction_DestroyAllThings>
+  <!--Destroy all clutter-->
+  <DebugAction_DestroyClutter>摧毁所有污渍</DebugAction_DestroyClutter>
+  <!--Finish all research-->
+  <DebugAction_FinishAllResearch>完成所有科技</DebugAction_FinishAllResearch>
+  <!--Replace all trade ships-->
+  <DebugAction_ReplaceAllTradeShips>重置所有贸易船</DebugAction_ReplaceAllTradeShips>
+  <!--Add a trade ship of a kind...-->
+  <DebugAction_AddTradeShipOfKind>添加来自X的贸易船</DebugAction_AddTradeShipOfKind>
+  <!--Change weather...-->
+  <DebugAction_ChangeWeather>改变天气</DebugAction_ChangeWeather>
+  <!--Play song...-->
+  <DebugAction_PlaySong>播放曲目</DebugAction_PlaySong>
+  <!--Play sound...-->
+  <DebugAction_PlaySound>播放音效</DebugAction_PlaySound>
+  <!--End game condition...-->
+  <DebugAction_EndGameCondition>结束游戏状态</DebugAction_EndGameCondition>
+  <!--Add prisoner-->
+  <DebugAction_AddPrisoner>添加囚犯</DebugAction_AddPrisoner>
+  <!--Add guest-->
+  <DebugAction_AddGuest>添加来客</DebugAction_AddGuest>
+  <!--Force enemy assault-->
+  <DebugAction_ForceEnemyAssault>地图敌人进攻</DebugAction_ForceEnemyAssault>
+  <!--Force enemy flee-->
+  <DebugAction_ForceEnemyFlee>地图敌人逃跑</DebugAction_ForceEnemyFlee>
+  <!--StoryWatcher adaption progress 10 days-->
+  <DebugAction_AdaptionProgress10Days>叙事者跳过10天</DebugAction_AdaptionProgress10Days>
+  <!--Unload unused assets-->
+  <DebugAction_UnloadUnusedAssets>卸载未使用的资源</DebugAction_UnloadUnusedAssets>
+  <!--Name settlement...-->
+  <DebugAction_NameSettlement>命名派系基地</DebugAction_NameSettlement>
+  <!--Next lesson-->
+  <DebugAction_NextLesson>下1课时</DebugAction_NextLesson>
+  <!--Regen all map mesh sections-->
+  <DebugAction_RegenAllMapMeshSections>重新生成全部地图的网格</DebugAction_RegenAllMapMeshSections>
+  <!--Change camera config...-->
+  <DebugAction_ChangeCameraConfig>改变镜头配置</DebugAction_ChangeCameraConfig>
+  <!--Force ship countdown-->
+  <DebugAction_ForceShipCountdown>强制发射空飞船</DebugAction_ForceShipCountdown>
+  <!--Force start ship-->
+  <DebugAction_ForceStartShip>强制发射飞船</DebugAction_ForceStartShip>
+  <!--Flash trade drop spot-->
+  <DebugAction_FlashTradeDropSpot>高亮坠落点</DebugAction_FlashTradeDropSpot>
+  <!--Make faction leader-->
+  <DebugAction_MakeFactionLeader>成为X派系的首领</DebugAction_MakeFactionLeader>
+  <!--Kill faction leader-->
+  <DebugAction_KillFactionLeader>击杀派系首领</DebugAction_KillFactionLeader>
+  <!--Kill kidnapped Pawn-->
+  <DebugAction_KillKidnappedPawn>击杀被俘虏殖民者</DebugAction_KillKidnappedPawn>
+  <!--Kill world Pawn-->
+  <DebugAction_KillWorldPawn>击杀世界生物</DebugAction_KillWorldPawn>
+  <!--Set faction relations-->
+  <DebugAction_SetFactionRelations>设置派系关系</DebugAction_SetFactionRelations>
+  <!--Visitor gift-->
+  <DebugAction_VisitorGift>访客给予礼物</DebugAction_VisitorGift>
+  <!--Refog map-->
+  <DebugAction_RefogMap>重置地图迷雾</DebugAction_RefogMap>
+  <!--Use GenStep...-->
+  <DebugAction_UseGenStep>使用生成器</DebugAction_UseGenStep>
+  <!--Increment time 1 hour-->
+  <DebugAction_IncrementTime1Hour>跳过1小时</DebugAction_IncrementTime1Hour>
+  <!--Increment time 6 hours-->
+  <DebugAction_IncrementTime6Hours>跳过6小时</DebugAction_IncrementTime6Hours>
+  <!--Increment time 12 hours-->
+  <DebugAction_IncrementTime12Hours>跳过12小时</DebugAction_IncrementTime12Hours>
+  <!--Increment time 1 day-->
+  <DebugAction_IncrementTime1Day>跳过1天</DebugAction_IncrementTime1Day>
+  <!--Increment time 1 season-->
+  <DebugAction_IncrementTime1Season>跳过1季</DebugAction_IncrementTime1Season>
+  <!--StoryWatcher tick 1 day-->
+  <DebugAction_StorywatcherTick1Day>时间经过1天</DebugAction_StorywatcherTick1Day>
+  <!--Add techprints to project...-->
+  <DebugAction_AddTechprintsForProject>添加科技蓝图</DebugAction_AddTechprintsForProject>
+  <!--Apply techprints on project...-->
+  <DebugAction_ApplyTechprintsForProject>指定人添加科技蓝图</DebugAction_ApplyTechprintsForProject>
+  <!--Kill random lent colonist-->
+  <DebugAction_KillRandomLentColonist>击杀随机出借殖民者</DebugAction_KillRandomLentColonist>
+  <!--Destroy all hats-->
+  <DebugAction_DestroyAllHats>摧毁所有装备的帽子</DebugAction_DestroyAllHats>
+  <!--PawnKind apparel check...-->
+  <DebugAction_PawnKindApparelCheck>检查人员装备</DebugAction_PawnKindApparelCheck>
+  <!--Dump Pawn atlases-->
+  <DebugAction_DumpPawnAtlases>导出生物atlases</DebugAction_DumpPawnAtlases>
+  <!--Dump static atlases-->
+  <DebugAction_DumpStaticAtlases>导出静态atlases</DebugAction_DumpStaticAtlases>
+  <!--PawnKind ability check...-->
+  <DebugAction_PawnKindAbilityCheck>检查人员能力</DebugAction_PawnKindAbilityCheck>
+  <!--Clear prisoner interaction schedule-->
+  <DebugAction_ClearPrisonerInteractionSchedule>清除囚犯交互计划</DebugAction_ClearPrisonerInteractionSchedule>
+  <!--Display glow at position-->
+  <DebugAction_GlowAtPosition>显示目标地点的光亮</DebugAction_GlowAtPosition>
+  <!--Display HSV at position-->
+  <DebugAction_HSVAtPosition>显示目标地点的HSV</DebugAction_HSVAtPosition>
+  <!--Fill map with trees-->
+  <DebugAction_FillMapWithTrees>用树填满地图</DebugAction_FillMapWithTrees>
+  <!--Flash blocked landing cells-->
+  <DebugAction_FlashBlockedLandingCells>高亮阻挡的地面单元</DebugAction_FlashBlockedLandingCells>
+  <!--List loaded files for mod...-->
+  <DebugAction_LoadedFilesForMod>已加载的模组列表</DebugAction_LoadedFilesForMod>
+  <!--Generate quest...-->
+  <DebugAction_GenerateQuest>生成任务</DebugAction_GenerateQuest>
+  <!--Generate quest x10...-->
+  <DebugAction_GenerateQuests10>生成任务 x10</DebugAction_GenerateQuests10>
+  <!--Generate quest x30...-->
+  <DebugAction_GenerateQuests30>生成任务 x30</DebugAction_GenerateQuests30>
+  <!--Generate quests (1 for each points)...-->
+  <DebugAction_GenerateQuestsSamples>生成任务 (各点数1个)</DebugAction_GenerateQuestsSamples>
+  <!--Test QuestPart...-->
+  <DebugAction_TestQuestPart>测试任务组件</DebugAction_TestQuestPart>
+  <!--Log generated quest savedata-->
+  <DebugAction_QuestExample>记录生成的任务数据</DebugAction_QuestExample>
+  <!--Award 4 honor-->
+  <DebugAction_Award4RoyalFavor>获得4点声望</DebugAction_Award4RoyalFavor>
+  <!--Award 10 honor-->
+  <DebugAction_Award10RoyalFavor>获得10点声望</DebugAction_Award10RoyalFavor>
+  <!--Remove 4 honor-->
+  <DebugAction_Remove4RoyalFavor>失去4点声望</DebugAction_Remove4RoyalFavor>
+  <!--Reduce royal title-->
+  <DebugAction_ReduceRoyalTitle>失去荣誉头衔</DebugAction_ReduceRoyalTitle>
+  <!--Set royal title...-->
+  <DebugAction_SetTitleForced>设置荣誉头衔</DebugAction_SetTitleForced>
+  <!--Write backstory translation file-->
+  <DebugAction_WriteBackstoryTranslationFile>写入背景故事翻译</DebugAction_WriteBackstoryTranslationFile>
+  <!--Save translation report-->
+  <DebugAction_SaveTranslationReport>保存翻译报告</DebugAction_SaveTranslationReport>
+  <!--Make colony (full)-->
+  <DebugAction_MakeColonyFull>生成殖民地(完整)</DebugAction_MakeColonyFull>
+  <!--Make colony (animals)-->
+  <DebugAction_MakeColonyAnimals>生成殖民地(动物)</DebugAction_MakeColonyAnimals>
+  <!--Test force downed x100-->
+  <DebugAction_TestForceDownedx100>生成倒地单位x100</DebugAction_TestForceDownedx100>
+  <!--Test force kill x100-->
+  <DebugAction_TestForceKillx100>生成死亡单位x100</DebugAction_TestForceKillx100>
+  <!--Test surgery fail catastrophic x100-->
+  <DebugAction_TestSurgeryFailCatastrophicx100>生成灾难性手术失败x100</DebugAction_TestSurgeryFailCatastrophicx100>
+  <!--Test surgery fail ridiculous x100-->
+  <DebugAction_TestSurgeryFailRidiculousx100>生成可笑的手术失败x100</DebugAction_TestSurgeryFailRidiculousx100>
+  <!--Test generate pawn x1000-->
+  <DebugAction_TestGeneratePawnx1000>生成生物x1000</DebugAction_TestGeneratePawnx1000>
+  <!--Generate Pawns of all shapes-->
+  <DebugAction_GeneratePawnsOfAllShapes>生成全部形态的殖民者</DebugAction_GeneratePawnsOfAllShapes>
+  <!--Check RegionListers-->
+  <DebugAction_CheckRegionListers>检查区域列表</DebugAction_CheckRegionListers>
+  <!--Test time-to-down-->
+  <DebugAction_TestTimeToDown>测试对决</DebugAction_TestTimeToDown>
+  <!--Battle Royale all PawnKinds-->
+  <DebugAction_BattleRoyaleAllPawnKinds>对决(随机生物)</DebugAction_BattleRoyaleAllPawnKinds>
+  <!--Battle Royale humanlikes-->
+  <DebugAction_BattleRoyaleHumanlikes>对决(人类派系)</DebugAction_BattleRoyaleHumanlikes>
+  <!--Battle Royale by damage type-->
+  <DebugAction_BattleRoyaleByDamagetype>对决(人与雪牛)</DebugAction_BattleRoyaleByDamagetype>
+  <!--Destroy-->
+  <DebugAction_Destroy>摧毁</DebugAction_Destroy>
+  <!--Discard-->
+  <DebugAction_Discard>丢弃</DebugAction_Discard>
+  <!--Kill-->
+  <DebugAction_Kill>杀死</DebugAction_Kill>
+  <!--10 damage-->
+  <DebugAction_Take10Damage>造成10点伤害</DebugAction_Take10Damage>
+  <!--5000 damage-->
+  <DebugAction_Take5000Damage>造成5000点伤害</DebugAction_Take5000Damage>
+  <!--Rotate clockwise-->
+  <DebugAction_RotateClockwise>顺时针旋转</DebugAction_RotateClockwise>
+  <!--Rotate counterclockwise-->
+  <DebugAction_RotateCounterClockwise>逆时针旋转</DebugAction_RotateCounterClockwise>
+  <!--Clear area 21x21-->
+  <DebugAction_ClearArea21x21>清理21x21的区域</DebugAction_ClearArea21x21>
+  <!--Make rock 11x11-->
+  <DebugAction_Rock21x21>填充11x11的岩石</DebugAction_Rock21x21>
+  <!--Explosion (bomb)-->
+  <DebugAction_ExplosionBomb>爆炸(炸弹)</DebugAction_ExplosionBomb>
+  <!--Explosion (flame)-->
+  <DebugAction_ExplosionFlame>爆炸(火焰)</DebugAction_ExplosionFlame>
+  <!--Explosion (stun)-->
+  <DebugAction_ExplosionStun>爆炸(眩晕)</DebugAction_ExplosionStun>
+  <!--Explosion (EMP)-->
+  <DebugAction_ExplosionEMP>爆炸(EMP)</DebugAction_ExplosionEMP>
+  <!--Explosion (extinguisher)-->
+  <DebugAction_ExplosionExtinguisher>爆炸(灭火泡沫)</DebugAction_ExplosionExtinguisher>
+  <!--Explosion (smoke)-->
+  <DebugAction_ExplosionSmoke>爆炸(烟雾)</DebugAction_ExplosionSmoke>
+  <!--Lightning strike-->
+  <DebugAction_LightningStrike>雷击</DebugAction_LightningStrike>
+  <!--Add snow-->
+  <DebugAction_AddSnow>添加积雪</DebugAction_AddSnow>
+  <!--Remove snow-->
+  <DebugAction_RemoveSnow>移除积雪</DebugAction_RemoveSnow>
+  <!--Clear all snow-->
+  <DebugAction_ClearAllSnow>清理全部积雪</DebugAction_ClearAllSnow>
+  <!--Push heat (10)-->
+  <DebugAction_PushHeat10>添加10点热量</DebugAction_PushHeat10>
+  <!--Push heat (1000)-->
+  <DebugAction_PushHeat1000>添加1000点热量</DebugAction_PushHeat1000>
+  <!--Push heat (-1000)-->
+  <DebugAction_PushHeatNeg1000>失去1000点热量</DebugAction_PushHeatNeg1000>
+  <!--Finish plant growth-->
+  <DebugAction_FinishPlantGrowth>作物完成生长</DebugAction_FinishPlantGrowth>
+  <!--Grow 1 day-->
+  <DebugAction_Grow1Day>生长一天</DebugAction_Grow1Day>
+  <!--Grow to maturity-->
+  <DebugAction_GrowToMaturity>生长至成熟</DebugAction_GrowToMaturity>
+  <!--Regen section-->
+  <DebugAction_RegenSection>部分再生</DebugAction_RegenSection>
+  <!--Set color-->
+  <DebugAction_SetColor>设置颜色</DebugAction_SetColor>
+  <!--Randomize color-->
+  <DebugAction_RandomizeColor>设置随机颜色</DebugAction_RandomizeColor>
+  <!--Rot 1 day-->
+  <DebugAction_Rot1Day>腐烂1天</DebugAction_Rot1Day>
+  <!--Force sleep-->
+  <DebugAction_ForceSleep>强制睡眠</DebugAction_ForceSleep>
+  <!--Fuel -20%-->
+  <DebugAction_FuelRemove20Percent>燃料-20%</DebugAction_FuelRemove20Percent>
+  <!--Break down-->
+  <DebugAction_BreakDown>分解</DebugAction_BreakDown>
+  <!--Use Scatterer...-->
+  <DebugAction_UseScatterer>使用房间生成器</DebugAction_UseScatterer>
+  <!--Use BaseGen...-->
+  <DebugAction_BaseGen>使用基地生成器</DebugAction_BaseGen>
+  <!--Use SketchGen...-->
+  <DebugAction_SketchGen>使用草图生成器</DebugAction_SketchGen>
+  <!--Make roof-->
+  <DebugAction_MakeRoof>添加屋顶</DebugAction_MakeRoof>
+  <!--Delete roof-->
+  <DebugAction_DeleteRoof>移除屋顶</DebugAction_DeleteRoof>
+  <!--Test flood unfog-->
+  <DebugAction_TestFloodUnfog>测试网格去雾</DebugAction_TestFloodUnfog>
+  <!--Flash Closewalk cell 30 radius-->
+  <DebugAction_FlashClosewalkCell30>高亮取消闲逛方格(30)</DebugAction_FlashClosewalkCell30>
+  <!--Flash walk path-->
+  <DebugAction_FlashWalkPath>高亮闲逛路径</DebugAction_FlashWalkPath>
+  <!--Flash skygaze cell-->
+  <DebugAction_FlashSkygazeCell>高亮不可视方格</DebugAction_FlashSkygazeCell>
+  <!--Flash direct flee destination-->
+  <DebugAction_FlashDirectFleeDest>高亮直接逃跑目标</DebugAction_FlashDirectFleeDest>
+  <!--Flash SpectatorCells-->
+  <DebugAction_FlashSpectatorsCells>高亮观众区</DebugAction_FlashSpectatorsCells>
+  <!--Check reachability-->
+  <DebugAction_CheckReachability>检查可达性</DebugAction_CheckReachability>
+  <!--Flash TryFindRandomPawnExitCell-->
+  <DebugAction_FlashTryFindRandomPawnExitCell>高亮随机生物离开地图方格</DebugAction_FlashTryFindRandomPawnExitCell>
+  <!--Flash RandomSpotJustOutsideColony-->
+  <DebugAction_RandomSpotJustOutsideColony>高亮殖民地外随机位置</DebugAction_RandomSpotJustOutsideColony>
+  <!--Flash RandomSpotNearThingAvoidingHostilePawns-->
+  <DebugAction_RandomSpotNearThingAvoidingHostiles>高亮随机规避敌对单位目标方格</DebugAction_RandomSpotNearThingAvoidingHostiles>
+  <!--Clear All Fog-->
+  <DebugAction_ClearAllFog>清除所有迷雾</DebugAction_ClearAllFog>
+  <!--Change Thing Style-->
+  <DebugAction_ChangeThingStyle>改变物品的样式</DebugAction_ChangeThingStyle>
+  <!--Attach fire-->
+  <DebugAction_AttachFire>点燃</DebugAction_AttachFire>
+  <!--Flash nearby shuttle drop cell-->
+  <DebugAction_FlashShuttleDropCellsNear>高亮附件穿梭机降落的地点</DebugAction_FlashShuttleDropCellsNear>
+  <!--Resurrect-->
+  <DebugAction_Resurrect>复活</DebugAction_Resurrect>
+  <!--Damage until down-->
+  <DebugAction_DamageUntilDown>攻击至倒地</DebugAction_DamageUntilDown>
+  <!--Damage legs-->
+  <DebugAction_DamageLegs>攻击腿部</DebugAction_DamageLegs>
+  <!--Damage to death-->
+  <DebugAction_DamageToDeath>攻击至死</DebugAction_DamageToDeath>
+  <!--Damage carried Thing to death-->
+  <DebugAction_CarriedDamageToDeath>攻击携带物至死</DebugAction_CarriedDamageToDeath>
+  <!--10 damage until dead-->
+  <DebugAction_Do10DamageUntilDead>每次10点伤害至死</DebugAction_Do10DamageUntilDead>
+  <!--Damage held Pawn to death-->
+  <DebugAction_DamageHeldPawnToDeath>攻击携带生物至死</DebugAction_DamageHeldPawnToDeath>
+  <!--Surgery fail minor-->
+  <DebugAction_SurgeryFailMinor>造成轻度手术失误</DebugAction_SurgeryFailMinor>
+  <!--Surgery fail catastrophic-->
+  <DebugAction_SurgeryFailCatastrophic>造成灾难性手术失误</DebugAction_SurgeryFailCatastrophic>
+  <!--Surgery fail ridiculous-->
+  <DebugAction_SurgeryFailRidiculous>造成可笑的手术失误</DebugAction_SurgeryFailRidiculous>
+  <!--Restore body part...-->
+  <DebugAction_RestoreBodyPart>重置身体部件</DebugAction_RestoreBodyPart>
+  <!--Apply damage...-->
+  <DebugAction_ApplyDamage>造成伤害</DebugAction_ApplyDamage>
+  <!--Add Hediff...-->
+  <DebugAction_AddHediff>添加状态</DebugAction_AddHediff>
+  <!--Remove Hediff...-->
+  <DebugAction_RemoveHediff>移除状态</DebugAction_RemoveHediff>
+  <!--Heal random injury (10)-->
+  <DebugAction_HealRandomInjury10>治疗随机伤口(10)</DebugAction_HealRandomInjury10>
+  <!--Activate HediffGiver-->
+  <DebugAction_ActivateHediffGiver>激活状态给予器</DebugAction_ActivateHediffGiver>
+  <!--Activate HediffGiver of a world Pawn-->
+  <DebugAction_ActivateHediffGiverWorldPawn>激活一个世界生物的状态给予器</DebugAction_ActivateHediffGiverWorldPawn>
+  <!--Discover Hediffs-->
+  <DebugAction_DiscoverHediffs>发现状态</DebugAction_DiscoverHediffs>
+  <!--Grant immunities-->
+  <DebugAction_GrantImmunities>完成免疫</DebugAction_GrantImmunities>
+  <!--Give birth-->
+  <DebugAction_GiveBirth>分娩</DebugAction_GiveBirth>
+  <!--Resistance -1-->
+  <DebugAction_ResistanceMinus1>抵抗-1</DebugAction_ResistanceMinus1>
+  <!--Resistance -10-->
+  <DebugAction_ResistanceMinus10>抵抗-10</DebugAction_ResistanceMinus10>
+  <!--+20 neural heat-->
+  <DebugAction_AddPsychicEntropy>心灵熵+20</DebugAction_AddPsychicEntropy>
+  <!---20 neural heat-->
+  <DebugAction_ReducePsychicEntropy>心灵熵-20</DebugAction_ReducePsychicEntropy>
+  <!--List melee Verbs-->
+  <DebugAction_ListMeleeVerbs>近战攻击类型列表</DebugAction_ListMeleeVerbs>
+  <!--Add/remove Pawn relation...-->
+  <DebugAction_AddRemovePawnRelation>添加/移除人物关系</DebugAction_AddRemovePawnRelation>
+  <!--Add opinion talks about...-->
+  <DebugAction_AddOpinionTalksAbout>添加关于X的想法</DebugAction_AddOpinionTalksAbout>
+  <!--Force vomit-->
+  <DebugAction_ForceVomit>强制呕吐</DebugAction_ForceVomit>
+  <!--Psyfocus +20%-->
+  <DebugAction_OffsetPsyfocusPositive20>精神力+20%</DebugAction_OffsetPsyfocusPositive20>
+  <!--Psyfocus -20%-->
+  <DebugAction_OffsetPsyfocusNegative20>精神力-20%</DebugAction_OffsetPsyfocusNegative20>
+  <!--Food -20%-->
+  <DebugAction_OffsetFoodNegative20>饮食值-20%</DebugAction_OffsetFoodNegative20>
+  <!--Rest -20%-->
+  <DebugAction_OffsetRestNegative20>休息值-20%</DebugAction_OffsetRestNegative20>
+  <!--Joy -20%-->
+  <DebugAction_OffsetJoyNegative20>娱乐值-20%</DebugAction_OffsetJoyNegative20>
+  <!--Chemical -20%-->
+  <DebugAction_OffsetChemicalNegative20>药物满足-20%</DebugAction_OffsetChemicalNegative20>
+  <!--Indoors -20%-->
+  <DebugAction_OffsetIndoorsNegative20>室内-20%</DebugAction_OffsetIndoorsNegative20>
+  <!--Needs misc -20%-->
+  <DebugAction_OffsetNeedsMiscNegative20>其他-20%</DebugAction_OffsetNeedsMiscNegative20>
+  <!--Certainty - 20%-->
+  <DebugAction_OffsetCertaintyNegative20>认可度-20%</DebugAction_OffsetCertaintyNegative20>
+  <!--Set skill...-->
+  <DebugAction_SetSkill>设置X技能</DebugAction_SetSkill>
+  <!--Max skill...-->
+  <DebugAction_MaxSkill>X技能全满</DebugAction_MaxSkill>
+  <!--Max all skills-->
+  <DebugAction_MaxAllSkills>全部技能全满</DebugAction_MaxAllSkills>
+  <!--Mental break...-->
+  <DebugAction_MentalBreak>精神崩溃</DebugAction_MentalBreak>
+  <!--Play Pawn sound-->
+  <DebugAction_DoVoiceCall>播放生物声音</DebugAction_DoVoiceCall>
+  <!--Mental state...-->
+  <DebugAction_MentalState>强制精神状态</DebugAction_MentalState>
+  <!--Stop mental state-->
+  <DebugAction_StopMentalState>结束精神状态</DebugAction_StopMentalState>
+  <!--Inspiration...-->
+  <DebugAction_Inspiration>添加灵感</DebugAction_Inspiration>
+  <!--Give trait...-->
+  <DebugAction_GiveTrait>添加特性</DebugAction_GiveTrait>
+  <!--Remove all traits-->
+  <DebugAction_RemoveAllTraits>移除所有特性</DebugAction_RemoveAllTraits>
+  <!--Set backstory...-->
+  <DebugAction_SetBackstory>设置背景故事</DebugAction_SetBackstory>
+  <!--Give ability...-->
+  <DebugAction_GiveAbility>添加能力</DebugAction_GiveAbility>
+  <!--Give Psylink...-->
+  <DebugAction_GivePsylink>设置启灵神经等级</DebugAction_GivePsylink>
+  <!--Remove neural heat-->
+  <DebugAction_RemovePsychicEntropy>移除心灵熵</DebugAction_RemovePsychicEntropy>
+  <!--Give good thought...-->
+  <DebugAction_GiveGoodThought>添加好心情</DebugAction_GiveGoodThought>
+  <!--Give bad thought...-->
+  <DebugAction_GiveBadThought>添加坏心情</DebugAction_GiveBadThought>
+  <!--Clear bound unfinished Things-->
+  <DebugAction_ClearBoundUnfinishedThings>清理未完成的物品</DebugAction_ClearBoundUnfinishedThings>
+  <!--Force birthday-->
+  <DebugAction_ForceBirthday>强制生日</DebugAction_ForceBirthday>
+  <!--Recruit-->
+  <DebugAction_Recruit>招募</DebugAction_Recruit>
+  <!--Enslave-->
+  <DebugAction_Enslave>奴役</DebugAction_Enslave>
+  <!--Damage apparel-->
+  <DebugAction_DamageApparel>攻击装备</DebugAction_DamageApparel>
+  <!--Give apparel to selected...-->
+  <DebugAction_WearApparel_ToSelected>给予装备</DebugAction_WearApparel_ToSelected>
+  <!--Give primary to selected...-->
+  <DebugAction_EquipPrimary_ToSelected>给予武器</DebugAction_EquipPrimary_ToSelected>
+  <!--Tame animal-->
+  <DebugAction_TameAnimal>驯服动物</DebugAction_TameAnimal>
+  <!--Train animal-->
+  <DebugAction_TrainAnimal>训练动物</DebugAction_TrainAnimal>
+  <!--Try develop bound relation-->
+  <DebugAction_TryDevelopBoundRelation>尝试发展绑定关系</DebugAction_TryDevelopBoundRelation>
+  <!--Queue training decay-->
+  <DebugAction_QueueTrainingDecay>动物技能衰减</DebugAction_QueueTrainingDecay>
+  <!--Display relations info-->
+  <DebugAction_DisplayRelationsInfo>显示关系信息</DebugAction_DisplayRelationsInfo>
+  <!--Display interactions info-->
+  <DebugAction_DisplayInteractionsInfo>显示交互信息</DebugAction_DisplayInteractionsInfo>
+  <!--Start marriage ceremony...-->
+  <DebugAction_StartMarriageCeremony>开始婚礼</DebugAction_StartMarriageCeremony>
+  <!--Force interaction-->
+  <DebugAction_ForceInteraction>强制交互</DebugAction_ForceInteraction>
+  <!--Start random gathering-->
+  <DebugAction_StartRandomGathering>开始随机聚会</DebugAction_StartRandomGathering>
+  <!--Start gathering-->
+  <DebugAction_StartGathering>开始聚会</DebugAction_StartGathering>
+  <!--Start prison break-->
+  <DebugAction_StartPrisonBreak>开始越狱</DebugAction_StartPrisonBreak>
+  <!--Pass to world-->
+  <DebugAction_PassToWorld>传送到世界</DebugAction_PassToWorld>
+  <!--Remove world pawn...-->
+  <DebugAction_RemoveWorldPawn>移除世界生物</DebugAction_RemoveWorldPawn>
+  <!--Make 1 year older-->
+  <DebugAction_Make1YearOlder>年长1岁</DebugAction_Make1YearOlder>
+  <!--Make 1 day older-->
+  <DebugAction_Make1DayOlder>年长1天</DebugAction_Make1DayOlder>
+  <!--Try JobGiver-->
+  <DebugAction_TryJobGiver>执行工作给予器</DebugAction_TryJobGiver>
+  <!--Try JoyGiver-->
+  <DebugAction_TryJoyGiver>执行娱乐给予器</DebugAction_TryJoyGiver>
+  <!--EndCurrentJobInterruptForced-->
+  <DebugAction_EndCurrentJobInterruptForced>强制结束当前工作</DebugAction_EndCurrentJobInterruptForced>
+  <!--CheckForJobOverride-->
+  <DebugAction_CheckForJobOverride>检查工作覆盖</DebugAction_CheckForJobOverride>
+  <!--Toggle job logging-->
+  <DebugAction_ToggleJobLogging>切换工作记录</DebugAction_ToggleJobLogging>
+  <!--Toggle stance logging-->
+  <DebugAction_ToggleStanceLogging>切换姿态记录</DebugAction_ToggleStanceLogging>
+  <!--Kidnap colonist-->
+  <DebugAction_Kidnap>绑架殖民者</DebugAction_Kidnap>
+  <!--Make selected Pawn face a cell-->
+  <DebugAction_Selected_SetFacing>选择面对方向</DebugAction_Selected_SetFacing>
+  <!--Add precept-->
+  <DebugAction_AddPrecept>添加戒律</DebugAction_AddPrecept>
+  <!--Remove precept-->
+  <DebugAction_RemovePrecept>移除戒律</DebugAction_RemovePrecept>
+  <!--Trigger date specific ritual-->
+  <DebugAction_TriggerDateRitual>触发特定日期的仪式</DebugAction_TriggerDateRitual>
+  <!--Add 5 days to obligation timer-->
+  <DebugAction_Add5DaysToObligationTimer>仪式时间添加5天</DebugAction_Add5DaysToObligationTimer>
+  <!--Remove ritual obligation-->
+  <DebugAction_RemoveRitualObligation>移除仪式职责</DebugAction_RemoveRitualObligation>
+  <!--Generate 200 ritual names-->
+  <DebugAction_Generate200RitualNames>生成200个仪式名称</DebugAction_Generate200RitualNames>
+  <!--Set ideo role...-->
+  <DebugAction_SetIdeoRole>设置文化角色</DebugAction_SetIdeoRole>
+  <!--Make guilty-->
+  <DebugAction_MakeGuilty>认罪</DebugAction_MakeGuilty>
+  <!--Force age reversal demand-->
+  <DebugAction_ForceAgeReversalDemandNow>强制年龄反转需求</DebugAction_ForceAgeReversalDemandNow>
+  <!--Reset age reversal demand-->
+  <DebugAction_ResetAgeReversalDemandNow>重置年龄反转需求</DebugAction_ResetAgeReversalDemandNow>
+  <!--Spawn Pawn...-->
+  <DebugAction_SpawnPawn>生成生物</DebugAction_SpawnPawn>
+  <!--Spawn weapon...-->
+  <DebugAction_SpawnWeapon>生成武器</DebugAction_SpawnWeapon>
+  <!--Spawn apparel...-->
+  <DebugAction_SpawnApparel>生成装备</DebugAction_SpawnApparel>
+  <!--Try place near Thing...-->
+  <DebugAction_TryPlaceNearThing>在周围放置物品</DebugAction_TryPlaceNearThing>
+  <!--Try place near thing with style...-->
+  <DebugAction_TryPlaceNearThingWithStyle>在周围放置X样式的物品</DebugAction_TryPlaceNearThingWithStyle>
+  <!--Try place near stack of 25...-->
+  <DebugAction_TryPlaceNearStacksOf25>在周围放置25个物品</DebugAction_TryPlaceNearStacksOf25>
+  <!--Try place near stack of 75...-->
+  <DebugAction_TryPlaceNearStacksOf75>在周围放置75个物品</DebugAction_TryPlaceNearStacksOf75>
+  <!--Try place direct Thing...-->
+  <DebugAction_TryPlaceDirectThing>直接放置物品</DebugAction_TryPlaceDirectThing>
+  <!--Try place direct stack of 25...-->
+  <DebugAction_TryPlaceDirectStackOf25>直接放置25个物品</DebugAction_TryPlaceDirectStackOf25>
+  <!--Try place stack of market value...-->
+  <DebugAction_TryPlaceNearMarketValue>直接放置相当于市场价X的物品</DebugAction_TryPlaceNearMarketValue>
+  <!--Try add to inventory...-->
+  <DebugAction_TryAddToInventory>在装备中添加物品</DebugAction_TryAddToInventory>
+  <!--Spawn Thing with WipeMode...-->
+  <DebugAction_SpawnThingWithWipeMode>用指定模式生成物品</DebugAction_SpawnThingWithWipeMode>
+  <!--Set terrain...-->
+  <DebugAction_SetTerrain>设置地板</DebugAction_SetTerrain>
+  <!--Set terrain in a rectangle...-->
+  <DebugAction_SetTerrainRect>设置一片地板</DebugAction_SetTerrainRect>
+  <!--Spawn mech cluster-->
+  <DebugAction_SpawnMechCluster>生成机械集群</DebugAction_SpawnMechCluster>
+  <!--Make filth x100-->
+  <DebugAction_MakeFilthx100>生成100份污秽</DebugAction_MakeFilthx100>
+  <!--Spawn faction leader-->
+  <DebugAction_SpawnFactionLeader>生成派系首领</DebugAction_SpawnFactionLeader>
+  <!--Spawn world Pawn...-->
+  <DebugAction_SpawnWorldPawn>生成世界人物</DebugAction_SpawnWorldPawn>
+  <!--Spawn ThingSet...-->
+  <DebugAction_SpawnThingSet>放置资源仓</DebugAction_SpawnThingSet>
+  <!--Trigger Effecter...-->
+  <DebugAction_TriggerEffecter>触发激活器</DebugAction_TriggerEffecter>
+  <!--Spawn shuttle...-->
+  <DebugAction_SpawnShuttle>生成穿梭机</DebugAction_SpawnShuttle>
+  <!--Spawn random caravan-->
+  <DebugAction_SpawnRandomCaravan>生成随机商队</DebugAction_SpawnRandomCaravan>
+  <!--Spawn random faction base-->
+  <DebugAction_SpawnRandomFactionBase>生成随机派系基地</DebugAction_SpawnRandomFactionBase>
+  <!--Spawn site...-->
+  <DebugAction_SpawnSite>生成事件点</DebugAction_SpawnSite>
+  <!--Destroy site-->
+  <DebugAction_DestroySite>移除事件点</DebugAction_DestroySite>
+  <!--Spawn site with points...-->
+  <DebugAction_SpawnSiteWithPoints>生成X点的事件点</DebugAction_SpawnSiteWithPoints>
+  <!--Spawn WorldObject...-->
+  <DebugAction_SpawnWorldObject>生成世界项目</DebugAction_SpawnWorldObject>
+  <!--Change camera config...-->
+  <DebugAction_ChangeCameraConfigWorld>改变镜头配置</DebugAction_ChangeCameraConfigWorld>
+  <!--Spawn relic...-->
+  <DebugAction_SpawnRelic>生成遗物</DebugAction_SpawnRelic>
+  <!--Draw breach path...-->
+  <DebugAction_DebugDrawBreachPath>绘制突破路径</DebugAction_DebugDrawBreachPath>
+  <!--Enable wound debug draw-->
+  <DebugAction_WoundDebug>启用调试伤口绘制</DebugAction_WoundDebug>
+  <!--Wound debug export (non-humanlike)-->
+  <DebugAction_WoundDebugExport>调试导出伤口(非人形)</DebugAction_WoundDebugExport>
+</LanguageData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--Write translation source files-->
+  <DebugAction_outputTranslationSource>编写翻译源文件</DebugAction_outputTranslationSource>
+  <!--Writing translation source files-->
+  <DevL10N.TranslationOutput.Writing>编写翻译源文件中</DevL10N.TranslationOutput.Writing>
+  <!--Saved translation output to {0}.-->
+  <DevL10N.TranslationOutput.SavedTo>保存翻译输出到{0}.</DevL10N.TranslationOutput.SavedTo>
+  <!--(extra {0} items)-->
+  <DevL10N.TranslationOutput.ExtraItemsFromLanguage>(额外{0}个项目)</DevL10N.TranslationOutput.ExtraItemsFromLanguage>
+  <!--(removed unused {0} items)-->
+  <DevL10N.TranslationOutput.RemovedItemsFromLanguage>(移除{0}个未使用的项目)</DevL10N.TranslationOutput.RemovedItemsFromLanguage>
+</LanguageData>

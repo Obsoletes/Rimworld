@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--Clear-->
+  <LogWindow_Clear>清除</LogWindow_Clear>
+  <!--Clear all log messages.-->
+  <LogWindow_Clear.Description>清除所有日志</LogWindow_Clear.Description>
+
+  <!--Trace big-->
+  <LogWindow_TraceBig>大窗口</LogWindow_TraceBig>
+  <!--Set the stack trace to be large on screen.-->
+  <LogWindow_TraceBig.Description>设置堆栈跟踪窗口为大型</LogWindow_TraceBig.Description>
+
+  <!--Trace medium-->
+  <LogWindow_TraceMedium>中等窗口</LogWindow_TraceMedium>
+  <!--Set the stack trace to be medium-sized on screen.-->
+  <LogWindow_TraceMedium.Description>设置堆栈跟踪窗口为中等</LogWindow_TraceMedium.Description>
+
+  <!--Trace small-->
+  <LogWindow_TraceSmall>小窗口</LogWindow_TraceSmall>
+  <!--Set the stack trace to be small on screen.-->
+  <LogWindow_TraceSmall.Description>设置堆栈跟踪窗口为小型</LogWindow_TraceSmall.Description>
+
+  <!--Auto-open is ON-->
+  <LogWindow_AutoOpenEnabled>自动打开-开启</LogWindow_AutoOpenEnabled>
+  <!--Debug log will be opened when an error is logged.-->
+  <LogWindow_AutoOpenEnabled.Description>调试窗口会在错误发生时自动打开</LogWindow_AutoOpenEnabled.Description>
+
+  <!--Auto-open is OFF-->
+  <LogWindow_AutoOpenDisabled>自动打开-关闭</LogWindow_AutoOpenDisabled>
+  <!--Debug log will NOT be opened when an error is logged.-->
+  <LogWindow_AutoOpenDisabled.Description>调试窗口不会在错误发生时自动打开.</LogWindow_AutoOpenDisabled.Description>
+
+  <!--Copy to clipboard-->
+  <LogWindow_CopyToClipboard>复制到剪切板</LogWindow_CopyToClipboard>
+  <!--Copy all messages to the clipboard.-->
+  <LogWindow_CopyToClipboard.Description>复制所有信息到剪切板</LogWindow_CopyToClipboard.Description>
+</LanguageData>
