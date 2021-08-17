@@ -23,7 +23,7 @@
   <!--Always do lovin-->
   <AlwaysDoLovin>總是做愛</AlwaysDoLovin>
   <!--Detect RegionListers bugs-->
-  <DetectRegionListersBugs>檢測區域清單錯誤</DetectRegionListersBugs>
+  <DetectRegionListersBugs>檢測區域列表錯誤</DetectRegionListersBugs>
   <!--Instant visitors gift-->
   <InstantVisitorsGift>即時訪客禮物</InstantVisitorsGift>
   <!--Low FPS-->
@@ -41,9 +41,9 @@
   <!--Fast caravans-->
   <FastCaravans>商隊快速移動</FastCaravans>
   <!--Activate all building demands-->
-  <ActivateAllBuildingDemands>啟動所有建築需求</ActivateAllBuildingDemands>
+  <ActivateAllBuildingDemands>激活所有建築需求</ActivateAllBuildingDemands>
   <!--Activate all ideo roles-->
-  <ActivateAllIdeoRoles>啟動所有文化角色</ActivateAllIdeoRoles>
+  <ActivateAllIdeoRoles>激活所有文化角色</ActivateAllIdeoRoles>
   <!--Show LocomotionUrgency-->
   <ShowLocomotionUrgency>顯示移動緊迫性</ShowLocomotionUrgency>
   <!--Play ritual ambience sound-->
@@ -57,7 +57,7 @@
   <!--Draw water-->
   <DrawTerrainWater>繪製水</DrawTerrainWater>
   <!--Draw dynamic Things-->
-  <DrawThingsDynamic>繪製動態物品</DrawThingsDynamic>
+  <DrawThingsDynamic>繪制動態物品</DrawThingsDynamic>
   <!--Draw printed Things-->
   <DrawThingsPrinted>繪製基礎物品</DrawThingsPrinted>
   <!--Draw shadows-->
@@ -107,7 +107,7 @@
   <!--Draw recorded noise-->
   <DrawRecordedNoise>繪製記錄的噪音</DrawRecordedNoise>
   <!--Draw food search from mouse-->
-  <DrawFoodSearchFromMouse>繪製用滑鼠搜索食物</DrawFoodSearchFromMouse>
+  <DrawFoodSearchFromMouse>繪製用鼠標搜索食物</DrawFoodSearchFromMouse>
   <!--Draw prey info-->
   <DrawPreyInfo>繪製獵食目標</DrawPreyInfo>
   <!--Draw glow-->
@@ -117,7 +117,7 @@
   <!--Draw breaching grid-->
   <DrawBreachingGrid>繪製違背區</DrawBreachingGrid>
   <!--Draw breaching noise-->
-  <DrawBreachingNoise>繪製違背雜訊</DrawBreachingNoise>
+  <DrawBreachingNoise>繪製違背噪聲</DrawBreachingNoise>
   <!--Draw Lords-->
   <DrawLords>繪製領主</DrawLords>
   <!--Draw duties-->
@@ -125,7 +125,7 @@
   <!--Draw shooting-->
   <DrawShooting>繪製射擊</DrawShooting>
   <!--Draw infestation chance-->
-  <DrawInfestationChance>繪製感染幾率</DrawInfestationChance>
+  <DrawInfestationChance>繪製感染機率</DrawInfestationChance>
   <!--Draw steal debug-->
   <DrawStealDebug>繪製鋼鐵調試</DrawStealDebug>
   <!--Draw deep resources-->
@@ -141,7 +141,7 @@
   <!--Draw damage rects-->
   <DrawDamageRects>繪製傷害矩陣</DrawDamageRects>
   <!--Inspect Game-->
-  <WriteGame>檢查遊戲資訊</WriteGame>
+  <WriteGame>檢查遊戲信息</WriteGame>
   <!--Inspect Steam items-->
   <WriteSteamItems>檢查Steam物品</WriteSteamItems>
   <!--Inspect Concepts-->
@@ -153,11 +153,11 @@
   <!--Inspect fertility-->
   <WriteFertility>檢查生育能力</WriteFertility>
   <!--Inspect LinkFlags-->
-  <WriteLinkFlags>檢查連結標識</WriteLinkFlags>
+  <WriteLinkFlags>檢查鏈接標識</WriteLinkFlags>
   <!--Inspect cover-->
   <WriteCover>檢查遮蓋</WriteCover>
   <!--Inspect cell contents-->
-  <WriteCellContents>檢查儲存格內容</WriteCellContents>
+  <WriteCellContents>檢查單元格內容</WriteCellContents>
   <!--Inspect MusicManager play-->
   <WriteMusicManagerPlay>檢查音樂管理器播放內容</WriteMusicManagerPlay>
   <!--Inspect storyteller-->
@@ -179,9 +179,9 @@
   <!--Inspect repairable buildings-->
   <WriteListRepairableBldgs>檢查可修復建築</WriteListRepairableBldgs>
   <!--Inspect filth list in home area-->
-  <WriteListFilthInHomeArea>檢查居住區污漬</WriteListFilthInHomeArea>
+  <WriteListFilthInHomeArea>檢查居住區汙漬</WriteListFilthInHomeArea>
   <!--Inspect haulable list-->
-  <WriteListHaulables>檢查居住區污漬</WriteListHaulables>
+  <WriteListHaulables>檢查居住區汙漬</WriteListHaulables>
   <!--Inspect mergeable list-->
   <WriteListMergeables>檢查可合併清單</WriteListMergeables>
   <!--Inspect total snow depth-->
@@ -201,7 +201,7 @@
   <!--Inspect SkyManager-->
   <WriteSkyManager>檢查天空管理器</WriteSkyManager>
   <!--Inspect memory usage-->
-  <WriteMemoryUsage>檢查記憶體使用情況</WriteMemoryUsage>
+  <WriteMemoryUsage>檢查內存使用情況</WriteMemoryUsage>
   <!--Inspect map's GameConditions-->
   <WriteMapGameConditions>檢查地圖的遊戲狀態</WriteMapGameConditions>
   <!--Inspect attack targets-->
@@ -222,7 +222,7 @@
   <!--Log grammar resolution-->
   <LogGrammarResolution>記錄語法解析</LogGrammarResolution>
   <!--Log combat log mouseover-->
-  <LogCombatLogMouseover>記錄滑鼠懸停處戰鬥日誌</LogCombatLogMouseover>
+  <LogCombatLogMouseover>記錄鼠標懸停處戰鬥日誌</LogCombatLogMouseover>
   <!--Log cause of death-->
   <LogCauseOfDeath>記錄死亡原因</LogCauseOfDeath>
   <!--Log map load-->
@@ -238,7 +238,7 @@
   <!--Log hourly screenshot-->
   <LogHourlyScreenshot>記錄每小時記錄截圖</LogHourlyScreenshot>
   <!--Log filth summary-->
-  <LogFilthSummary>記錄污穢摘要</LogFilthSummary>
+  <LogFilthSummary>記錄汙穢摘要</LogFilthSummary>
   <!--Log carried between Jobs-->
   <LogCarriedBetweenJobs>記錄工作間攜帶的</LogCarriedBetweenJobs>
   <!--Log Complex gen points-->
@@ -248,7 +248,7 @@
   <!--Show all room stats-->
   <ShowAllRoomStats>顯示全部房間統計</ShowAllRoomStats>
   <!--Show float menu WorkGivers-->
-  <ShowFloatMenuWorkGivers>顯示工作給予浮動功能表</ShowFloatMenuWorkGivers>
+  <ShowFloatMenuWorkGivers>顯示工作給予浮動菜單</ShowFloatMenuWorkGivers>
   <!--Never force normal speed-->
   <NeverForceNormalSpeed>從不強制普通速度</NeverForceNormalSpeed>
 </LanguageData>

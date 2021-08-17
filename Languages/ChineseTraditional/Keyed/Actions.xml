@@ -13,7 +13,7 @@
   <!--Suppression -10%-->
   <DebugAction_SuppressionMinus10>壓制-10%</DebugAction_SuppressionMinus10>
   <!--Clear suppression schedule-->
-  <DebugAction_ResetSuppresionSchedule>清除抑制計畫</DebugAction_ResetSuppresionSchedule>
+  <DebugAction_ResetSuppresionSchedule>清除抑制計劃</DebugAction_ResetSuppresionSchedule>
   <!--Will +1-->
   <DebugAction_WillPlus1>毅力+1</DebugAction_WillPlus1>
   <!--Will -1-->
@@ -47,7 +47,7 @@
   <!--Leak map...-->
   <DebugAction_LeakMap>洩露地圖</DebugAction_LeakMap>
   <!--Print leaked map...-->
-  <DebugAction_PrintLeakedMap>列印被洩露的地圖</DebugAction_PrintLeakedMap>
+  <DebugAction_PrintLeakedMap>打印被洩露的地圖</DebugAction_PrintLeakedMap>
   <!--Add game condition...-->
   <DebugAction_AddGameCondition>添加遊戲條件</DebugAction_AddGameCondition>
   <!--Remove game condition...-->
@@ -69,7 +69,7 @@
   <!--Destroy all Things-->
   <DebugAction_DestroyAllThings>摧毀所有物品</DebugAction_DestroyAllThings>
   <!--Destroy all clutter-->
-  <DebugAction_DestroyClutter>摧毀所有污漬</DebugAction_DestroyClutter>
+  <DebugAction_DestroyClutter>摧毀所有汙漬</DebugAction_DestroyClutter>
   <!--Finish all research-->
   <DebugAction_FinishAllResearch>完成所有科技</DebugAction_FinishAllResearch>
   <!--Replace all trade ships-->
@@ -149,13 +149,13 @@
   <!--PawnKind apparel check...-->
   <DebugAction_PawnKindApparelCheck>檢查人員裝備</DebugAction_PawnKindApparelCheck>
   <!--Dump Pawn atlases-->
-  <DebugAction_DumpPawnAtlases>匯出生物atlases</DebugAction_DumpPawnAtlases>
+  <DebugAction_DumpPawnAtlases>導出生物atlases</DebugAction_DumpPawnAtlases>
   <!--Dump static atlases-->
-  <DebugAction_DumpStaticAtlases>匯出靜態atlases</DebugAction_DumpStaticAtlases>
+  <DebugAction_DumpStaticAtlases>導出靜態atlases</DebugAction_DumpStaticAtlases>
   <!--PawnKind ability check...-->
   <DebugAction_PawnKindAbilityCheck>檢查人員能力</DebugAction_PawnKindAbilityCheck>
   <!--Clear prisoner interaction schedule-->
-  <DebugAction_ClearPrisonerInteractionSchedule>清除囚犯交互計畫</DebugAction_ClearPrisonerInteractionSchedule>
+  <DebugAction_ClearPrisonerInteractionSchedule>清除囚犯交互計劃</DebugAction_ClearPrisonerInteractionSchedule>
   <!--Display glow at position-->
   <DebugAction_GlowAtPosition>顯示目標地點的光亮</DebugAction_GlowAtPosition>
   <!--Display HSV at position-->
@@ -165,7 +165,7 @@
   <!--Flash blocked landing cells-->
   <DebugAction_FlashBlockedLandingCells>高亮阻擋的地面單元</DebugAction_FlashBlockedLandingCells>
   <!--List loaded files for mod...-->
-  <DebugAction_LoadedFilesForMod>已載入的模組列表</DebugAction_LoadedFilesForMod>
+  <DebugAction_LoadedFilesForMod>已加載的模組列表</DebugAction_LoadedFilesForMod>
   <!--Generate quest...-->
   <DebugAction_GenerateQuest>生成任務</DebugAction_GenerateQuest>
   <!--Generate quest x10...-->
@@ -177,7 +177,7 @@
   <!--Test QuestPart...-->
   <DebugAction_TestQuestPart>測試任務組件</DebugAction_TestQuestPart>
   <!--Log generated quest savedata-->
-  <DebugAction_QuestExample>記錄生成的任務資料</DebugAction_QuestExample>
+  <DebugAction_QuestExample>記錄生成的任務數據</DebugAction_QuestExample>
   <!--Award 4 honor-->
   <DebugAction_Award4RoyalFavor>獲得4點聲望</DebugAction_Award4RoyalFavor>
   <!--Award 10 honor-->
@@ -209,7 +209,7 @@
   <!--Generate Pawns of all shapes-->
   <DebugAction_GeneratePawnsOfAllShapes>生成全部形態的殖民者</DebugAction_GeneratePawnsOfAllShapes>
   <!--Check RegionListers-->
-  <DebugAction_CheckRegionListers>檢查區域清單</DebugAction_CheckRegionListers>
+  <DebugAction_CheckRegionListers>檢查區域列表</DebugAction_CheckRegionListers>
   <!--Test time-to-down-->
   <DebugAction_TestTimeToDown>測試對決</DebugAction_TestTimeToDown>
   <!--Battle Royale all PawnKinds-->
@@ -351,9 +351,9 @@
   <!--Heal random injury (10)-->
   <DebugAction_HealRandomInjury10>治療隨機傷口(10)</DebugAction_HealRandomInjury10>
   <!--Activate HediffGiver-->
-  <DebugAction_ActivateHediffGiver>啟動狀態給予器</DebugAction_ActivateHediffGiver>
+  <DebugAction_ActivateHediffGiver>激活狀態給予器</DebugAction_ActivateHediffGiver>
   <!--Activate HediffGiver of a world Pawn-->
-  <DebugAction_ActivateHediffGiverWorldPawn>啟動一個世界生物的狀態給予器</DebugAction_ActivateHediffGiverWorldPawn>
+  <DebugAction_ActivateHediffGiverWorldPawn>激活一個世界生物的狀態給予器</DebugAction_ActivateHediffGiverWorldPawn>
   <!--Discover Hediffs-->
   <DebugAction_DiscoverHediffs>發現狀態</DebugAction_DiscoverHediffs>
   <!--Grant immunities-->
@@ -449,9 +449,9 @@
   <!--Queue training decay-->
   <DebugAction_QueueTrainingDecay>動物技能衰減</DebugAction_QueueTrainingDecay>
   <!--Display relations info-->
-  <DebugAction_DisplayRelationsInfo>顯示關係資訊</DebugAction_DisplayRelationsInfo>
+  <DebugAction_DisplayRelationsInfo>顯示關係信息</DebugAction_DisplayRelationsInfo>
   <!--Display interactions info-->
-  <DebugAction_DisplayInteractionsInfo>顯示交互資訊</DebugAction_DisplayInteractionsInfo>
+  <DebugAction_DisplayInteractionsInfo>顯示交互信息</DebugAction_DisplayInteractionsInfo>
   <!--Start marriage ceremony...-->
   <DebugAction_StartMarriageCeremony>開始婚禮</DebugAction_StartMarriageCeremony>
   <!--Force interaction-->
@@ -537,7 +537,7 @@
   <!--Spawn mech cluster-->
   <DebugAction_SpawnMechCluster>生成機械集群</DebugAction_SpawnMechCluster>
   <!--Make filth x100-->
-  <DebugAction_MakeFilthx100>生成100份污穢</DebugAction_MakeFilthx100>
+  <DebugAction_MakeFilthx100>生成100份汙穢</DebugAction_MakeFilthx100>
   <!--Spawn faction leader-->
   <DebugAction_SpawnFactionLeader>生成派系首領</DebugAction_SpawnFactionLeader>
   <!--Spawn world Pawn...-->
@@ -545,7 +545,7 @@
   <!--Spawn ThingSet...-->
   <DebugAction_SpawnThingSet>放置資源倉</DebugAction_SpawnThingSet>
   <!--Trigger Effecter...-->
-  <DebugAction_TriggerEffecter>觸發啟動器</DebugAction_TriggerEffecter>
+  <DebugAction_TriggerEffecter>觸發激活器</DebugAction_TriggerEffecter>
   <!--Spawn shuttle...-->
   <DebugAction_SpawnShuttle>生成穿梭機</DebugAction_SpawnShuttle>
   <!--Spawn random caravan-->
@@ -569,5 +569,5 @@
   <!--Enable wound debug draw-->
   <DebugAction_WoundDebug>啟用調試傷口繪製</DebugAction_WoundDebug>
   <!--Wound debug export (non-humanlike)-->
-  <DebugAction_WoundDebugExport>調試匯出傷口(非人形)</DebugAction_WoundDebugExport>
+  <DebugAction_WoundDebugExport>調試導出傷口(非人形)</DebugAction_WoundDebugExport>
 </LanguageData>

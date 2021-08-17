@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
   <!--Write translation source files-->
-  <DebugAction_outputTranslationSource>編寫翻譯原始檔案</DebugAction_outputTranslationSource>
+  <DebugAction_outputTranslationSource>編寫翻譯源文件</DebugAction_outputTranslationSource>
   <!--Writing translation source files-->
-  <DevL10N.TranslationOutput.Writing>編寫翻譯原始檔案中</DevL10N.TranslationOutput.Writing>
+  <DevL10N.TranslationOutput.Writing>編寫翻譯源文件中</DevL10N.TranslationOutput.Writing>
   <!--Saved translation output to {0}.-->
   <DevL10N.TranslationOutput.SavedTo>保存翻譯輸出到{0}.</DevL10N.TranslationOutput.SavedTo>
   <!--(extra {0} items)-->
-  <DevL10N.TranslationOutput.ExtraItemsFromLanguage>(額外{0}個專案)</DevL10N.TranslationOutput.ExtraItemsFromLanguage>
+  <DevL10N.TranslationOutput.ExtraItemsFromLanguage>(額外{0}個項目)</DevL10N.TranslationOutput.ExtraItemsFromLanguage>
   <!--(removed unused {0} items)-->
-  <DevL10N.TranslationOutput.RemovedItemsFromLanguage>(移除{0}個未使用的專案)</DevL10N.TranslationOutput.RemovedItemsFromLanguage>
+  <DevL10N.TranslationOutput.RemovedItemsFromLanguage>(移除{0}個未使用的項目)</DevL10N.TranslationOutput.RemovedItemsFromLanguage>
 </LanguageData>
