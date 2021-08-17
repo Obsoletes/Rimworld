@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!--Open the debug log.-->
+    <DebugMenu_Logs>打開調試視窗。</DebugMenu_Logs>
+    <!--Open TweakValues menu.\n\nThis lets you change internal values.-->
+    <DebugMenu_TweakValues>打開數值調整面板。\n\n這可以讓你修改內部參數。</DebugMenu_TweakValues>
+    <!--Open the view settings.\n\nThis lets you see special debug visuals.-->
+    <DebugMenu_ViewSettings>打開視覺設置。\n\n這可以讓你調試特殊的視覺效果。</DebugMenu_ViewSettings>
+    <!--Open debug actions menu.\n\nThis lets you spawn items and force various events.-->
+    <DebugMenu_DebugActions>打開調試操作功能表。\n\n這可以讓你生成物品或強制執行各種事件。</DebugMenu_DebugActions>
+    <!--Open debug logging menu.-->
+    <DebugMenu_DebugLogging>打開調試日誌記錄清單。</DebugMenu_DebugLogging>
+    <!--Open the inspector.\n\nThis lets you inspect what's happening in the game, down to individual variables.-->
+    <DebugMenu_Inspector>打開檢查器。\n\n這可以讓你檢查遊戲中正在發生的事情，甚至精確到每個變數。</DebugMenu_Inspector>
+    <!--Toggle god mode.\n\nWhen god mode is on, you can build stuff instantly, for free, and deconstruct things that aren't yours.-->
+    <DebugMenu_GodMode>打開上帝模式。\n\n這可以使你免費的進行建築，或拆除不屬於你的建築</DebugMenu_GodMode>
+    <!--Pause the game when an error is logged.-->
+    <DebugMenu_PauseOnError>錯誤發生時暫停遊戲</DebugMenu_PauseOnError>
+</LanguageData>
