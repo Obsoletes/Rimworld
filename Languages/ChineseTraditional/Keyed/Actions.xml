@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
+  <!--Max Development Points-->
+  <DebugAction_MaxDevelopmentPoints>最大發展點數</DebugAction_MaxDevelopmentPoints>
+  <!--Add Development Point-->
+  <DebugAction_AddDevelopmentPoint>增加發展點數</DebugAction_AddDevelopmentPoint>
+  <!--Clear Development Points-->
+  <DebugAction_ClearDevelopmentPoints>清除發展點數</DebugAction_ClearDevelopmentPoints>
+  <!--Spawn Complex-->
+  <DebugAction_SpawnComplex>生成複合體</DebugAction_SpawnComplex>
+  <!--Make colony (ancient junk)-->
+  <DebugAction_MakeColonyAncientJunk>生成殖民地(遠古垃圾)</DebugAction_MakeColonyAncientJunk>
   <!--Atlas Rebuild-->
   <DebugAction_AtlasRebuild>重建Atlas資源</DebugAction_AtlasRebuild>
   <!--Set Source Precept-->
