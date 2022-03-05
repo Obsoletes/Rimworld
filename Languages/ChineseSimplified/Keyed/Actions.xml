@@ -16,6 +16,8 @@
   <DebugAction_SetSourcePrecept>设置戒律</DebugAction_SetSourcePrecept>
   <!--Set Ideo-->
   <DebugAction_SetIdeo>设置文化</DebugAction_SetIdeo>
+  <!--Convert to Ideo...-->
+  <DebugAction_ConvertToIdeo>转变为X文化</DebugAction_ConvertToIdeo>
   <!--Add Slave-->
   <DebugAction_AddSlave>添加奴隶</DebugAction_AddSlave>
   <!--Suppression +10%-->
@@ -524,6 +526,8 @@
   <DebugAction_SpawnApparel>生成装备</DebugAction_SpawnApparel>
   <!--Try place near Thing...-->
   <DebugAction_TryPlaceNearThing>在周围放置物品</DebugAction_TryPlaceNearThing>
+  <!--Try place minified Thing...-->
+  <DebugAction_TryPlaceMinifiedThing>放置建筑</DebugAction_TryPlaceMinifiedThing>
   <!--Try place near thing with style...-->
   <DebugAction_TryPlaceNearThingWithStyle>在周围放置X样式的物品</DebugAction_TryPlaceNearThingWithStyle>
   <!--Try place near stack of 25...-->
@@ -536,6 +540,8 @@
   <DebugAction_TryPlaceDirectStackOf25>直接放置25个物品</DebugAction_TryPlaceDirectStackOf25>
   <!--Try place stack of market value...-->
   <DebugAction_TryPlaceNearMarketValue>直接放置相当于市场价X的物品</DebugAction_TryPlaceNearMarketValue>
+  <!--Create meal with specifics...-->
+  <DebugAction_CreateMealWithSpecifics>用X创建食物</DebugAction_CreateMealWithSpecifics>
   <!--Try add to inventory...-->
   <DebugAction_TryAddToInventory>在装备中添加物品</DebugAction_TryAddToInventory>
   <!--Spawn Thing with WipeMode...-->
