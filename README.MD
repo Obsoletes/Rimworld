@@ -1,4 +1,11 @@
 添加了[开发者模式汉化](https://steamcommunity.com/sharedfiles/filedetails/?id=2190249420)缺少的条目
+## 2022.9.15
+修改了
+```
+Settings.xml中的
+DrawInfestationChance
+```
+对应原模组2022.3.4的更新
 ## 2022.3.5
 添加了
 ```
