@@ -125,7 +125,7 @@
   <!--Draw shooting-->
   <DrawShooting>绘制射击</DrawShooting>
   <!--Draw infestation chance-->
-  <DrawInfestationChance>绘制感染几率</DrawInfestationChance>
+  <DrawInfestationChance>绘制虫灾几率</DrawInfestationChance>
   <!--Draw steal debug-->
   <DrawStealDebug>绘制钢铁调试</DrawStealDebug>
   <!--Draw deep resources-->
