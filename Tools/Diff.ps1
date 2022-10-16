@@ -48,7 +48,7 @@ function Compare-Translate([string] $SourceFolder, [string] $TranslateFolder) {
 }
 function Write-Help {
     Write-Host "Useage:"
-    Write-Host "    .\Diff.ps1 [-SourceFolder] [-TranslateFolder]"
+    Write-Host "    .\Diff.ps1 -SourceFolder -TranslateFolder [-CreateMissed]"
     Write-Host "Example:"
     Write-Host "    .\Diff.ps1 -SourceFolder .\Source\ -TranslateFolder ..\Languages\ChineseSimplified\Keyed\"
 }
