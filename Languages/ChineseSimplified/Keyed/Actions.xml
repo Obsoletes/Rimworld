@@ -61,9 +61,9 @@
   <!--Print leaked map...-->
   <DebugAction_PrintLeakedMap>打印被泄露的地图</DebugAction_PrintLeakedMap>
   <!--Add game condition...-->
-  <DebugAction_AddGameCondition>添加游戏条件</DebugAction_AddGameCondition>
+  <DebugAction_AddGameCondition>添加游戏环境</DebugAction_AddGameCondition>
   <!--Remove game condition...-->
-  <DebugAction_RemoveGameCondition>移除游戏条件</DebugAction_RemoveGameCondition>
+  <DebugAction_RemoveGameCondition>移除游戏环境</DebugAction_RemoveGameCondition>
   <!--Transfer to another map...-->
   <DebugAction_Transfer>转移到另一地图</DebugAction_Transfer>
   <!--Change map...-->

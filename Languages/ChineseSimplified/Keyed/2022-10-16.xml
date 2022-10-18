@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-  <ShowArchitectMenuOrder>Show architect menu button order</ShowArchitectMenuOrder>
-  <DebugAction_AddLearningDesire>Add learning desire</DebugAction_AddLearningDesire>
+  <ShowArchitectMenuOrder>显示规划菜单按钮顺序</ShowArchitectMenuOrder>
+  <DebugAction_AddLearningDesire>添加学习欲望</DebugAction_AddLearningDesire>
   <DebugAction_DecreasePollutionLarge>Decrease pollution (large)</DebugAction_DecreasePollutionLarge>
-  <DebugAction_SetFaction>Set faction</DebugAction_SetFaction>
+  <DebugAction_SetFaction>设置派系</DebugAction_SetFaction>
   <AllowUndraftedMechOrders>Allow undrafted Mechanoid orders</AllowUndraftedMechOrders>
-  <DebugAction_PushHeat>Push heat...</DebugAction_PushHeat>
+  <DebugAction_PushHeat>添加热量</DebugAction_PushHeat>
   <DebugAction_SpawnChild>Spawn child</DebugAction_SpawnChild>
-  <EditableGlowerColors>Editable glower colors without research</EditableGlowerColors>
-  <DebugAction_PolluteCellTen>Grow pollution (x10 cell)</DebugAction_PolluteCellTen>
+  <EditableGlowerColors>未研究，可编辑灯的颜色</EditableGlowerColors>
+  <DebugAction_PolluteCellTen>污染加剧(10格)</DebugAction_PolluteCellTen>
   <DebugAction_ResetBossgroupKilledPawns>Reset boss group killed Pawns</DebugAction_ResetBossgroupKilledPawns>
-  <DebugAction_PolluteCellThousand>Grow pollution (x1000 cell)</DebugAction_PolluteCellThousand>
+  <DebugAction_PolluteCellThousand>污染加剧(1000格)</DebugAction_PolluteCellThousand>
   <DebugAction_AddGene>Add gene</DebugAction_AddGene>
-  <LogRaidInfo>Log raid info</LogRaidInfo>
+  <LogRaidInfo>记录袭击信息</LogRaidInfo>
   <DebugAction_SpawnNewborn>Spawn newborn</DebugAction_SpawnNewborn>
-  <DebugAction_SetPassion>Set passion...</DebugAction_SetPassion>
+  <DebugAction_SetPassion>设置一个激情</DebugAction_SetPassion>
   <DebugAction_RemoveGene>Remove gene</DebugAction_RemoveGene>
-  <DebugMenu_DevPalette>Toggle the dev palette.\n\nAllows you to setup a palette of debug actions for ease of use.</DebugMenu_DevPalette>
-  <DebugAction_DamageUntilIncapableOfManipulation>Damage until incapable of manipulation</DebugAction_DamageUntilIncapableOfManipulation>
+  <DebugMenu_DevPalette>开关开发者快捷版。允许你设置固定调试操作以便使用。</DebugMenu_DevPalette>
+  <DebugAction_DamageUntilIncapableOfManipulation>伤害直到操作能力为零</DebugAction_DamageUntilIncapableOfManipulation>
   <DebugAction_PolluteRect>Pollute (area)</DebugAction_PolluteRect>
-  <DebugAction_TryPlaceNearFullStack>Try place near full stack...</DebugAction_TryPlaceNearFullStack>
-  <SimulateUsingSteamDeck>Simulate Steam Deck</SimulateUsingSteamDeck>
-  <DrawUnpollutionCells>Draw unpollution cells</DrawUnpollutionCells>
-  <DebugAction_MakeInjuryPermanent>Make injuries permanent</DebugAction_MakeInjuryPermanent>
-  <DebugAction_GrowPawnToMaturity>Grow Pawn to maturity</DebugAction_GrowPawnToMaturity>
-  <DebugAction_GenerateQuests>Generate multiple quests...</DebugAction_GenerateQuests>
+  <DebugAction_TryPlaceNearFullStack>在周围放置X样式的物品</DebugAction_TryPlaceNearFullStack>
+  <SimulateUsingSteamDeck>模拟Steam Deck</SimulateUsingSteamDeck>
+  <DrawUnpollutionCells>绘制无污染的区域（未使用）</DrawUnpollutionCells>
+  <DebugAction_MakeInjuryPermanent>使损伤永久</DebugAction_MakeInjuryPermanent>
+  <DebugAction_GrowPawnToMaturity>使生物成年</DebugAction_GrowPawnToMaturity>
+  <DebugAction_GenerateQuests>生产多个任务</DebugAction_GenerateQuests>
   <DebugAction_SpawnCocoonInfestationWithPoints>Spawn cocoon infestation...</DebugAction_SpawnCocoonInfestationWithPoints>
-  <DebugAction_TryPlaceDirectFullStack>Try place direct full stack...</DebugAction_TryPlaceDirectFullStack>
-  <DebugAction_LightningStrikeDelayed>Lightning strike (delayed)...</DebugAction_LightningStrikeDelayed>
+  <DebugAction_TryPlaceDirectFullStack>在周围放置一满格的物品</DebugAction_TryPlaceDirectFullStack>
+  <DebugAction_LightningStrikeDelayed>延迟雷击</DebugAction_LightningStrikeDelayed>
   <DebugAction_SimulateSanguophageMeeting>Simulate Sanguophage meeting</DebugAction_SimulateSanguophageMeeting>
   <DebugAction_IncreasePollutionLarge>Increase pollution (large)</DebugAction_IncreasePollutionLarge>
-  <DrawGas>Draw gas</DrawGas>
+  <DrawGas>绘制气体</DrawGas>
   <DebugAction_AbandonThing>Abandon Thing</DebugAction_AbandonThing>
   <DebugAction_UnpolluteRect>Unpollute (area)</DebugAction_UnpolluteRect>
-  <DebugAction_MeasureDrawSize>Measure draw size</DebugAction_MeasureDrawSize>
-  <DebugAction_MakeRock>Make rocks (area)</DebugAction_MakeRock>
+  <DebugAction_MeasureDrawSize>测量绘制大小</DebugAction_MeasureDrawSize>
+  <DebugAction_MakeRock>添加一个区域的岩石</DebugAction_MakeRock>
   <DebugAction_SetXenotype>Set Xenotype</DebugAction_SetXenotype>
   <DebugAction_SpawnBossgroup>Spawn bossgroup</DebugAction_SpawnBossgroup>
-  <DrawDissolutionCells>Draw dissolution cells</DrawDissolutionCells>
-  <DebugAction_FillAllGas>Fill map with gas</DebugAction_FillAllGas>
+  <DrawDissolutionCells>绘制解体的区域（未使用）</DrawDissolutionCells>
+  <DebugAction_FillAllGas>用气体填满地图</DebugAction_FillAllGas>
   <DebugAction_ResetBossgroupCooldown>Reset boss group cooldown</DebugAction_ResetBossgroupCooldown>
-  <DebugAction_Rotate>Rotate...</DebugAction_Rotate>
-  <LogTranslationLookupErrors>Log translation lookup errors</LogTranslationLookupErrors>
+  <DebugAction_Rotate>旋转</DebugAction_Rotate>
+  <LogTranslationLookupErrors>记录翻译查找错误</LogTranslationLookupErrors>
   <DebugAction_ResetRenderCache>Reset Pawn render cache</DebugAction_ResetRenderCache>
-  <FastMapUnpollution>Fast map unpollution</FastMapUnpollution>
-  <DebugAction_MakeEmptyRoom>Build empty room (area)</DebugAction_MakeEmptyRoom>
+  <FastMapUnpollution>地图快速无污染</FastMapUnpollution>
+  <DebugAction_MakeEmptyRoom>建造一个空房间</DebugAction_MakeEmptyRoom>
   <DebugAction_IncreasePollutionSmall>Increase pollution (small)</DebugAction_IncreasePollutionSmall>
   <DebugAction_LogMapPollution>Log current map pollution</DebugAction_LogMapPollution>
   <DebugAction_TryLearningGiver>Try LearningGiver</DebugAction_TryLearningGiver>
-  <DebugAction_ToggleImmunity>Toggle immunity</DebugAction_ToggleImmunity>
-  <DebugAction_SetHeadType>Set HeadType</DebugAction_SetHeadType>
-  <DebugAction_Take300Damage>3000 damage</DebugAction_Take300Damage>
-  <DebugAction_BenchmarkPerformance>Benchmark performance</DebugAction_BenchmarkPerformance>
-  <DebugAction_Explosion>Explosion...</DebugAction_Explosion>
-  <DebugAction_PolluteCellHundred>Grow pollution (x100 cell)</DebugAction_PolluteCellHundred>
-  <DebugAction_MaxAllPassions>Set all passions max</DebugAction_MaxAllPassions>
-  <DebugAction_DestroyAllCorpses>Destroy all corpses</DebugAction_DestroyAllCorpses>
-  <DebugAction_SetQuality>Set quality...</DebugAction_SetQuality>
-  <DebugAction_ClearArea>Clear (area)</DebugAction_ClearArea>
-  <DevPalette>Developer palette</DevPalette>
-  <DebugAction_ProgressLifeStage>Progress life stage</DebugAction_ProgressLifeStage>
-  <DebugAction_PushGas>Add gas...</DebugAction_PushGas>
-  <DebugAction_GrowPlantToMaturity>Grow plant to maturity</DebugAction_GrowPlantToMaturity>
-  <DebugAction_ClearAllGas>Clear all gas</DebugAction_ClearAllGas>
-  <DebugAction_IncrementTime>Increment time...</DebugAction_IncrementTime>
-  <DebugAction_MaxPassion>Set passion to max...</DebugAction_MaxPassion>
+  <DebugAction_ToggleImmunity>切换免疫</DebugAction_ToggleImmunity>
+  <DebugAction_SetHeadType>设置头的类型</DebugAction_SetHeadType>
+  <DebugAction_Take300Damage>造成5000点伤害</DebugAction_Take300Damage>
+  <DebugAction_BenchmarkPerformance>性能测试</DebugAction_BenchmarkPerformance>
+  <DebugAction_Explosion>爆炸</DebugAction_Explosion>
+  <DebugAction_PolluteCellHundred>污染加剧(100格)</DebugAction_PolluteCellHundred>
+  <DebugAction_MaxAllPassions>设置所有激情最大</DebugAction_MaxAllPassions>
+  <DebugAction_DestroyAllCorpses>摧毁所有尸体</DebugAction_DestroyAllCorpses>
+  <DebugAction_SetQuality>设置品质</DebugAction_SetQuality>
+  <DebugAction_ClearArea>清理区域</DebugAction_ClearArea>
+  <DevPalette>开发者快捷版</DevPalette>
+  <DebugAction_ProgressLifeStage>下一个生命阶段</DebugAction_ProgressLifeStage>
+  <DebugAction_PushGas>添加气体</DebugAction_PushGas>
+  <DebugAction_GrowPlantToMaturity>使植物成熟</DebugAction_GrowPlantToMaturity>
+  <DebugAction_ClearAllGas>清理所有气体</DebugAction_ClearAllGas>
+  <DebugAction_IncrementTime>时间增加</DebugAction_IncrementTime>
+  <DebugAction_MaxPassion>设置一个激情最大</DebugAction_MaxPassion>
 </LanguageData>
