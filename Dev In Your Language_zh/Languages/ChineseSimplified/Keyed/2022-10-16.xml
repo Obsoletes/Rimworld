@@ -35,7 +35,7 @@
   <DebugAction_UnpolluteRect>移除区域的污染</DebugAction_UnpolluteRect>
   <DebugAction_MeasureDrawSize>测量绘制大小</DebugAction_MeasureDrawSize>
   <DebugAction_MakeRock>添加一个区域的岩石</DebugAction_MakeRock>
-  <DebugAction_SetXenotype>设置异型</DebugAction_SetXenotype>
+  <DebugAction_SetXenotype>设置异种</DebugAction_SetXenotype>
   <DebugAction_SpawnBossgroup>生成首领小队</DebugAction_SpawnBossgroup>
   <DrawDissolutionCells>绘制解体的区域（未使用）</DrawDissolutionCells>
   <DebugAction_FillAllGas>用气体填满地图</DebugAction_FillAllGas>
