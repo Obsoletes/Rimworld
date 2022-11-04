@@ -10,13 +10,13 @@ using Verse;
 
 namespace DevL10N.Fix.Patch
 {
-	[HarmonyPatch(typeof(DebugToolsSpawning), "SpawnWeapon")]
-	public static class DebugToolsSpawning_SpawnWeapon
+	[HarmonyPatch(typeof(DebugToolsPawns), "EquipPrimary_ToSelected")]
+	public static class DebugToolsPawns_EquipPrimary_ToSelected
 	{
 		[HarmonyTranspiler]
 		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
 		{
-			return Patch.Transpiler(instructions);
+			return Patch.Transpiler(instructions, 1);
 		}
 	}
 }

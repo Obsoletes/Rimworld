@@ -47,7 +47,7 @@
   <DebugAction_MakeEmptyRoom>建造一个空房间</DebugAction_MakeEmptyRoom>
   <DebugAction_IncreasePollutionSmall>污染加剧(+1%)</DebugAction_IncreasePollutionSmall>
   <DebugAction_LogMapPollution>打印当前地图污染程度</DebugAction_LogMapPollution>
-  <DebugAction_TryLearningGiver>尝试给予学习欲望</DebugAction_TryLearningGiver>
+  <DebugAction_TryLearningGiver>尝试学习</DebugAction_TryLearningGiver>
   <DebugAction_ToggleImmunity>切换免疫</DebugAction_ToggleImmunity>
   <DebugAction_SetHeadType>设置头的类型</DebugAction_SetHeadType>
   <DebugAction_Take300Damage>造成5000点伤害</DebugAction_Take300Damage>

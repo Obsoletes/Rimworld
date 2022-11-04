@@ -47,7 +47,7 @@
   <DebugAction_MakeEmptyRoom>建造一個空房間</DebugAction_MakeEmptyRoom>
   <DebugAction_IncreasePollutionSmall>污染加劇(+1%)</DebugAction_IncreasePollutionSmall>
   <DebugAction_LogMapPollution>列印當前地圖污染程度</DebugAction_LogMapPollution>
-  <DebugAction_TryLearningGiver>嘗試給予學習欲望</DebugAction_TryLearningGiver>
+  <DebugAction_TryLearningGiver>嘗試學習</DebugAction_TryLearningGiver>
   <DebugAction_ToggleImmunity>切換免疫</DebugAction_ToggleImmunity>
   <DebugAction_SetHeadType>設置頭的類型</DebugAction_SetHeadType>
   <DebugAction_Take300Damage>造成5000點傷害</DebugAction_Take300Damage>

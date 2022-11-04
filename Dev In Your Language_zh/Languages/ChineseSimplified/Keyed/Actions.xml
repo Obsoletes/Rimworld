@@ -483,9 +483,9 @@
   <!--Make 1 day older-->
   <DebugAction_Make1DayOlder>年长1天</DebugAction_Make1DayOlder>
   <!--Try JobGiver-->
-  <DebugAction_TryJobGiver>执行工作给予器</DebugAction_TryJobGiver>
+  <DebugAction_TryJobGiver>执行工作</DebugAction_TryJobGiver>
   <!--Try JoyGiver-->
-  <DebugAction_TryJoyGiver>执行娱乐给予器</DebugAction_TryJoyGiver>
+  <DebugAction_TryJoyGiver>执行娱乐</DebugAction_TryJoyGiver>
   <!--EndCurrentJobInterruptForced-->
   <DebugAction_EndCurrentJobInterruptForced>强制结束当前工作</DebugAction_EndCurrentJobInterruptForced>
   <!--CheckForJobOverride-->

@@ -10,8 +10,8 @@ using Verse;
 
 namespace DevL10N.Fix.Patch
 {
-	[HarmonyPatch(typeof(DebugToolsSpawning), "TryPlaceNearThingWithStyle")]
-	public static class DebugToolsSpawning_TryPlaceNearThingWithStyle
+	[HarmonyPatch(typeof(DebugToolsPawns), "SetPassion")]
+	public static class DebugToolsPawns_SetPassion
 	{
 		[HarmonyTranspiler]
 		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)

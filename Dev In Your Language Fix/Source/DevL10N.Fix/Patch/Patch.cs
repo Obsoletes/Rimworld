@@ -19,24 +19,25 @@ namespace DevL10N.Fix.Patch
 		}
 		public static FieldInfo defField = null;
 		public static FieldInfo labelField = null;
-		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
+		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, int skip = 0)
 		{
-			var ils = instructions.ToList();
-			for (int i = 0; i < ils.Count; i++)
+			foreach (var item in instructions)
 			{
-				if (ils[i].opcode == OpCodes.Ldfld)
+				if (item.opcode == OpCodes.Ldfld)
 				{
-					// typeof(ils[i].operand)==System.Reflection.MonoField
-					// what's this?
-					// i have no choices
-					var s = ils[i].operand.ToString();
-					if (s.Contains("defName"))
+					if (skip != 0)
 					{
-						ils[i].operand = labelField;
+						skip--;
+						continue;
+					}
+					var field = item.operand as FieldInfo;
+					if (field.Name == "defName")
+					{
+						item.operand = labelField;
 					}
 				}
 			}
-			return ils;
+			return instructions;
 		}
 		static void ResoveField()
 		{

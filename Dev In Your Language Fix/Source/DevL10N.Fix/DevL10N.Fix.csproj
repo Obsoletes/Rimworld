@@ -53,16 +53,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DevL10NFix.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_SpawnApparel.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_SpawnPawn.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_CreateMealWithSpecifics.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_SpawnWeapon.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_SpawnAtDevelopmentalStages.cs" />
-    <Compile Include="Patch\DebugToolsSpawning_TryPlaceNearThingWithStyle.cs" />
-    <Compile Include="Patch\DebugThingPlaceHelper_TryPlaceOptionsUnminified.cs" />
-    <Compile Include="Patch\DebugThingPlaceHelper_TryPlaceOptionsForBaseMarketValue.cs" />
-    <Compile Include="Patch\DebugThingPlaceHelper_TryPlaceOptionsForStackCount.cs" />
-    <Compile Include="Patch\DebugThingPlaceHelper_TryAbandonOptionsForStackCount.cs" />
+    <Compile Include="Patch\DebugToolsGeneral\SetColor.cs" />
+    <Compile Include="Patch\DebugToolsPawns\TryLearningGiver.cs" />
+    <Compile Include="Patch\DebugToolsPawns\AddLearningDesire.cs" />
+    <Compile Include="Patch\DebugToolsPawns\EquipPrimary_ToSelected.cs" />
+    <Compile Include="Patch\DebugToolsPawns\WearApparel_ToSelected.cs" />
+    <Compile Include="Patch\DebugToolsPawns\MaxPassion.cs" />
+    <Compile Include="Patch\DebugToolsPawns\Inspiration.cs" />
+    <Compile Include="Patch\DebugToolsPawns\MentalState.cs" />
+    <Compile Include="Patch\DebugToolsPawns\MentalBreak.cs" />
+    <Compile Include="Patch\DebugToolsPawns\SetPassion.cs" />
+    <Compile Include="Patch\DebugToolsPawns\SetSkill.cs" />
+    <Compile Include="Patch\DebugToolsPawns\MaxSkill.cs" />
+    <Compile Include="Patch\DebugToolsPawns\SetHeadType.cs" />
+    <Compile Include="Patch\DebugToolsPawns\SetBodyType.cs" />
+    <Compile Include="Patch\DebugToolsPawns\SetXenotype.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\SpawnApparel.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\SpawnPawn.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\CreateMealWithSpecifics.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\SpawnWeapon.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\SpawnAtDevelopmentalStages.cs" />
+    <Compile Include="Patch\DebugToolsSpawning\TryPlaceNearThingWithStyle.cs" />
+    <Compile Include="Patch\DebugThingPlaceHelper\TryPlaceOptionsUnminified.cs" />
+    <Compile Include="Patch\DebugThingPlaceHelper\TryPlaceOptionsForBaseMarketValue.cs" />
+    <Compile Include="Patch\DebugThingPlaceHelper\TryPlaceOptionsForStackCount.cs" />
+    <Compile Include="Patch\DebugThingPlaceHelper\TryAbandonOptionsForStackCount.cs" />
     <Compile Include="Patch\Patch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
