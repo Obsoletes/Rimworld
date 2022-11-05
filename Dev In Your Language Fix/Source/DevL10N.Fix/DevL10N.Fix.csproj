@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DevL10NFix.cs" />
+    <Compile Include="Patch\DebugActionsMapManagement\SetTerrainRect.cs" />
     <Compile Include="Patch\DebugToolsGeneral\SetColor.cs" />
     <Compile Include="Patch\DebugToolsPawns\TryLearningGiver.cs" />
     <Compile Include="Patch\DebugToolsPawns\AddLearningDesire.cs" />
