@@ -24,7 +24,7 @@
   <DrawUnpollutionCells>繪製無污染的區域（未使用）</DrawUnpollutionCells>
   <DebugAction_MakeInjuryPermanent>使損傷永久</DebugAction_MakeInjuryPermanent>
   <DebugAction_GrowPawnToMaturity>使生物成年</DebugAction_GrowPawnToMaturity>
-  <DebugAction_GenerateQuests>生產多個任務</DebugAction_GenerateQuests>
+  <DebugAction_GenerateQuests>生成多個任務</DebugAction_GenerateQuests>
   <DebugAction_SpawnCocoonInfestationWithPoints>生成X的蟲繭</DebugAction_SpawnCocoonInfestationWithPoints>
   <DebugAction_TryPlaceDirectFullStack>在周圍放置一滿格的物品</DebugAction_TryPlaceDirectFullStack>
   <DebugAction_LightningStrikeDelayed>延遲雷擊</DebugAction_LightningStrikeDelayed>

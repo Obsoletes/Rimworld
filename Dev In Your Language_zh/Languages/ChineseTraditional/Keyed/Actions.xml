@@ -9,7 +9,7 @@
   <!--Spawn Complex-->
   <DebugAction_SpawnComplex>生成複合體</DebugAction_SpawnComplex>
   <!--Make colony (ancient junk)-->
-  <DebugAction_MakeColonyAncientJunk>生成殖民地(遠古垃圾)</DebugAction_MakeColonyAncientJunk>
+  <DebugAction_MakeColonyAncientJunk>生成殖民地(遠古殘骸)</DebugAction_MakeColonyAncientJunk>
   <!--Atlas Rebuild-->
   <DebugAction_AtlasRebuild>重建Atlas資源</DebugAction_AtlasRebuild>
   <!--Set Source Precept-->
