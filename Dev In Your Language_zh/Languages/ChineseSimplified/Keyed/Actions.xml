@@ -295,11 +295,11 @@
   <!--Break down-->
   <DebugAction_BreakDown>分解</DebugAction_BreakDown>
   <!--Use Scatterer...-->
-  <DebugAction_UseScatterer>使用房间生成器</DebugAction_UseScatterer>
+  <DebugAction_UseScatterer>使用生成器</DebugAction_UseScatterer>
   <!--Use BaseGen...-->
-  <DebugAction_BaseGen>使用基地生成器</DebugAction_BaseGen>
+  <DebugAction_BaseGen>使用基础生成器</DebugAction_BaseGen>
   <!--Use SketchGen...-->
-  <DebugAction_SketchGen>使用草图生成器</DebugAction_SketchGen>
+  <DebugAction_SketchGen>使用骨架生成器</DebugAction_SketchGen>
   <!--Make roof-->
   <DebugAction_MakeRoof>添加屋顶</DebugAction_MakeRoof>
   <!--Delete roof-->
