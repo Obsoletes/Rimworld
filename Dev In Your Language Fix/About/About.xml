@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Dev In Your Language fix</name>
+	<name>DevelopMode fix</name>
 	<author>Observer</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
-	<packageId>Observer.devl10n.fix</packageId>
+	<packageId>Observer.developMode.fix</packageId>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>

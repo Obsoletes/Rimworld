@@ -7,7 +7,7 @@
   <!--Clear Development Points-->
   <DebugAction_ClearDevelopmentPoints>清除發展點數</DebugAction_ClearDevelopmentPoints>
   <!--Spawn Complex-->
-  <DebugAction_SpawnComplex>生成複合體</DebugAction_SpawnComplex>
+  <DebugAction_SpawnComplex>生成複雜房間</DebugAction_SpawnComplex>
   <!--Make colony (ancient junk)-->
   <DebugAction_MakeColonyAncientJunk>生成殖民地(遠古殘骸)</DebugAction_MakeColonyAncientJunk>
   <!--Atlas Rebuild-->
@@ -137,7 +137,7 @@
   <!--Refog map-->
   <DebugAction_RefogMap>重置地圖迷霧</DebugAction_RefogMap>
   <!--Use GenStep...-->
-  <DebugAction_UseGenStep>使用生成器</DebugAction_UseGenStep>
+  <DebugAction_UseGenStep>使用地圖元件生成器</DebugAction_UseGenStep>
   <!--Increment time 1 hour-->
   <DebugAction_IncrementTime1Hour>跳過1小時</DebugAction_IncrementTime1Hour>
   <!--Increment time 6 hours-->
