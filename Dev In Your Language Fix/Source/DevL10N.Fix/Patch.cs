@@ -34,19 +34,19 @@ namespace DevelopMode
 		}
 		public static IEnumerable<CodeInstruction> TranspilerTitle0(IEnumerable<CodeInstruction> instructions)
 		{
-			return Transpiler(instructions);
+			return Transpiler(instructions, 0, true);
 		}
 		public static IEnumerable<CodeInstruction> TranspilerTitle1(IEnumerable<CodeInstruction> instructions)
 		{
-			return Transpiler(instructions, 1);
+			return Transpiler(instructions, 1, true);
 		}
 		public static IEnumerable<CodeInstruction> TranspilerTitle2(IEnumerable<CodeInstruction> instructions)
 		{
-			return Transpiler(instructions, 2);
+			return Transpiler(instructions, 2, true);
 		}
 		public static IEnumerable<CodeInstruction> TranspilerTitle3(IEnumerable<CodeInstruction> instructions)
 		{
-			return Transpiler(instructions, 3);
+			return Transpiler(instructions, 3, true);
 		}
 		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions, int skip = 0, bool useTitle = false)
 		{

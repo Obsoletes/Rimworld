@@ -293,7 +293,7 @@
   <!--Fuel -20%-->
   <DebugAction_FuelRemove20Percent>燃料-20%</DebugAction_FuelRemove20Percent>
   <!--Break down-->
-  <DebugAction_BreakDown>分解</DebugAction_BreakDown>
+  <DebugAction_BreakDown>損壞</DebugAction_BreakDown>
   <!--Use Scatterer...-->
   <DebugAction_UseScatterer>使用生成器</DebugAction_UseScatterer>
   <!--Use BaseGen...-->

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <Open_Log>Open Log</Open_Log>
+    <Show_Messages>顯示消息</Show_Messages>
+    <Toggle_showing_white__or_sometimes_colored__log_messages.>切換是否顯示消息</Toggle_showing_white__or_sometimes_colored__log_messages.>
+    <Show_Warnings>顯示警告</Show_Warnings>
+    <Toggle_showing_yellow_log_warnings.>切換是否顯示警告</Toggle_showing_yellow_log_warnings.>
+    <Show_Errors>顯示錯誤</Show_Errors>
+    <Toggle_showing_red_log_errors.>切換是否顯示錯誤</Toggle_showing_red_log_errors.>
+    <Clear>清除</Clear>
+    <Clear_all_log_messages.>清除所有日誌</Clear_all_log_messages.>
+    <Auto-open_is_ON>自動打開-開啟</Auto-open_is_ON>
+    <Auto-open_is_OFF>自動打開-關閉</Auto-open_is_OFF>
+    <Copy_to_clipboard>複製到剪切板</Copy_to_clipboard>
+    <Copy_all_messages_to_the_clipboard.>複製所有資訊到剪切板</Copy_all_messages_to_the_clipboard.>
+</LanguageData>
