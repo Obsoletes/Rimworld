@@ -63,6 +63,9 @@ namespace DevelopMode
 						}
 					}
 					MethodInfo method = null;
+#if DEBUG
+					Log.Message($"({type.FullName}).({methodName}) >>> {(methodSet == PatchMethod ? "PatchMethod" : "TitlePatchMethod")}[{node.Skip.GetValueOrDefault(0)}]");
+#endif
 					method = type.GetMethod(methodName, BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
 					harmony.Patch(method, transpiler: methodSet[node.Skip.GetValueOrDefault(0)]);
 				}
@@ -85,10 +88,10 @@ namespace DevelopMode
 			PatchMethod[2] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler2)));
 			PatchMethod[3] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler3)));
 			TitlePatchMethod = new HarmonyMethod[4];
-			PatchMethod[0] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle0)));
-			PatchMethod[1] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle1)));
-			PatchMethod[2] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle2)));
-			PatchMethod[3] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle3)));
+			TitlePatchMethod[0] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle0)));
+			TitlePatchMethod[1] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle1)));
+			TitlePatchMethod[2] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle2)));
+			TitlePatchMethod[3] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle3)));
 			CacheType = new Dictionary<string, Type>();
 			CacheType.Add("DebugActionsMapManagement", typeof(DebugActionsMapManagement));
 			CacheType.Add("DebugThingPlaceHelper", typeof(DebugThingPlaceHelper));
