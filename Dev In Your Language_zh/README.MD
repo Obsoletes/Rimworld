@@ -19,3 +19,8 @@ Actions.xml中的
 DebugAction_ConvertToIdeo,DebugAction_TryPlaceMinifiedThing,DebugAction_CreateMealWithSpecifics
 ```
 对应原模组2022.3.4的更新
+## 2023.7.8
+```
+添加了Actions.xml中的DebugAction_CreateBabyFromParents
+修复了一个翻译错误
+```
