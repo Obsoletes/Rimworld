@@ -50,7 +50,6 @@
   <DebugAction_TryLearningGiver>尝试学习</DebugAction_TryLearningGiver>
   <DebugAction_ToggleImmunity>切换免疫</DebugAction_ToggleImmunity>
   <DebugAction_SetHeadType>设置头的类型</DebugAction_SetHeadType>
-  <DebugAction_Take300Damage>造成5000点伤害</DebugAction_Take300Damage>
   <DebugAction_BenchmarkPerformance>性能测试</DebugAction_BenchmarkPerformance>
   <DebugAction_Explosion>爆炸</DebugAction_Explosion>
   <DebugAction_PolluteCellHundred>污染加剧(100格)</DebugAction_PolluteCellHundred>

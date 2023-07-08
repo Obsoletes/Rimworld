@@ -20,6 +20,8 @@
   <DebugAction_ConvertToIdeo>轉變為X文化</DebugAction_ConvertToIdeo>
   <!--Add Slave-->
   <DebugAction_AddSlave>添加奴隸</DebugAction_AddSlave>
+  <!--Create Baby from parents-->
+  <DebugAction_CreateBabyFromParents>從父母創建孩子</DebugAction_CreateBabyFromParents>
   <!--Suppression +10%-->
   <DebugAction_SuppressionPlus10>壓制+10%</DebugAction_SuppressionPlus10>
   <!--Suppression -10%-->
@@ -238,6 +240,8 @@
   <DebugAction_Kill>殺死</DebugAction_Kill>
   <!--10 damage-->
   <DebugAction_Take10Damage>造成10點傷害</DebugAction_Take10Damage>
+  <!--300 damage-->
+  <DebugAction_Take300Damage>造成300點傷害</DebugAction_Take300Damage>
   <!--5000 damage-->
   <DebugAction_Take5000Damage>造成5000點傷害</DebugAction_Take5000Damage>
   <!--Rotate clockwise-->
