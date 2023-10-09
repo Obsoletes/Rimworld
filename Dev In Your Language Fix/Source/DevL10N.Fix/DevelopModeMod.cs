@@ -1,4 +1,6 @@
-﻿using HarmonyLib;
+﻿using DevL10N.Fix;
+using DevL10N.Fix.ModPatch;
+using HarmonyLib;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -16,6 +18,7 @@ namespace DevelopMode
 		public static Dictionary<string, Type> CacheType { get; set; }
 		public DevelopModeMod(ModContentPack content) : base(content)
 		{
+			Harmony.DEBUG = true;
 			var harmony = new Harmony("DevelopMode.Mod");
 			Init();
 			var stream = File.OpenRead(Path.Combine(Content.RootDir, "1.4", "Assemblies", "Patch.xml"));
@@ -66,7 +69,7 @@ namespace DevelopMode
 #if DEBUG
 					Log.Message($"({type.FullName}).({methodName}) >>> {(methodSet == PatchMethod ? "PatchMethod" : "TitlePatchMethod")}[{node.Skip.GetValueOrDefault(0)}]");
 #endif
-					method = type.GetMethod(methodName, BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance | BindingFlags.Static);
+					method = type.GetMethodWithoutFlag(methodName);
 					harmony.Patch(method, transpiler: methodSet[node.Skip.GetValueOrDefault(0)]);
 				}
 				catch (Exception ex)
@@ -77,6 +80,8 @@ namespace DevelopMode
 				}
 				CacheType.Clear();
 			}
+			ModPatch.Patch(harmony);
+
 		}
 		static void Init()
 		{
