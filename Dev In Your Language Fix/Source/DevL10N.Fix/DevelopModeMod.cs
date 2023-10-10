@@ -18,7 +18,9 @@ namespace DevelopMode
 		public static Dictionary<string, Type> CacheType { get; set; }
 		public DevelopModeMod(ModContentPack content) : base(content)
 		{
+#if DEBUG
 			Harmony.DEBUG = true;
+#endif
 			var harmony = new Harmony("DevelopMode.Mod");
 			Init();
 			var stream = File.OpenRead(Path.Combine(Content.RootDir, "1.4", "Assemblies", "Patch.xml"));
