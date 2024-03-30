@@ -1,110 +1,110 @@
 ﻿using DevL10N.Fix;
-using DevL10N.Fix.ModPatch;
 using HarmonyLib;
-using System;
+using LudeonTK;
+using RimWorld;
 using System.Collections.Generic;
-using System.IO;
-using System.Reflection;
-using System.Xml.Serialization;
+using System.Linq;
+using System.Reflection.Emit;
 using Verse;
 
 namespace DevelopMode
 {
 	public class DevelopModeMod : Mod
 	{
-		public static XmlSerializer Serializer { get; set; }
-		public static HarmonyMethod[] PatchMethod { get; set; }
-		public static HarmonyMethod[] TitlePatchMethod { get; set; }
-		public static Dictionary<string, Type> CacheType { get; set; }
+		const int THING_DEF = 0;
+		const int PAWNKINK_DEF = 1;
+		const int XENOTYPE_DEF = 2;
+		const int SKILL_DEF = 3;
+		const int MENTALBREAK_DEF = 4;
+		const int TERRAIN_DEF = 5;
+		const int INSPIRATION_DEF = 6;
+		const int DAMAGE_DEF = 7;
+
+		const int LENGTH = DAMAGE_DEF + 1;
+		public static DefMap[] DefMaps { get; set; }
+		public static bool IsInit = false;
+		public static string FindLabelByDefName(string defName)
+		{
+			if (!IsInit)
+			{
+				Init();
+				IsInit = true;
+			}
+
+			foreach (var map in DefMaps)
+			{
+				if (map.DefNameToLabel(defName, out var result))
+					return result;
+			}
+			return defName;
+
+		}
 		public DevelopModeMod(ModContentPack content) : base(content)
 		{
 #if DEBUG
 			Harmony.DEBUG = true;
 #endif
 			var harmony = new Harmony("DevelopMode.Mod");
-			Init();
-			var stream = File.OpenRead(Path.Combine(Content.RootDir, "1.4", "Assemblies", "Patch.xml"));
-			var config = Serializer.Deserialize(stream) as PatchConfig;
-			foreach (var node in config.Nodes)
-			{
-				try
-				{
-					HarmonyMethod[] methodSet = PatchMethod;
-					string typeName = node.Type, methodName = node.Method;
-					if (!string.IsNullOrEmpty(node.TypeMethod))
-					{
-						var i = node.TypeMethod.IndexOf('_');
-						if (i != -1)
-						{
-							typeName = node.TypeMethod.Substring(0, i);
-							methodName = node.TypeMethod.Substring(i + 1);
-						}
-					}
-					if (string.IsNullOrEmpty(typeName) || string.IsNullOrEmpty(methodName))
-					{
-						Log.Warning("Patch.xml is not correct.");
-						continue;
-					}
-					if (node.Skip.HasValue && node.Skip > 3)
-					{
-						Log.Warning($"Patch.xml({node.Type}) is not correct.");
-						continue;
-					}
-					if (node.UseTitle == true)
-					{
-						methodSet = TitlePatchMethod;
-					}
-					if (!CacheType.TryGetValue(typeName, out Type type))
-					{
-						type = AccessTools.TypeByName(typeName);
-						CacheType.Add(typeName, type);
-					}
-					if (!string.IsNullOrEmpty(node.NestedType))
-					{
-						var nesteds = node.NestedType.Split(',');
-						foreach (var nested in nesteds)
-						{
-							type = type.GetNestedType(nested, BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Instance);
-						}
-					}
-					MethodInfo method = null;
-#if DEBUG
-					Log.Message($"({type.FullName}).({methodName}) >>> {(methodSet == PatchMethod ? "PatchMethod" : "TitlePatchMethod")}[{node.Skip.GetValueOrDefault(0)}]");
-#endif
-					method = type.GetMethodWithoutFlag(methodName);
-					harmony.Patch(method, transpiler: methodSet[node.Skip.GetValueOrDefault(0)]);
-				}
-				catch (Exception ex)
-				{
-					Log.Error("Patch.xml has error.");
-					Log.Error(ex.ToString());
-					continue;
-				}
-				CacheType.Clear();
-			}
-			ModPatch.Patch(harmony);
-
+			var method = typeof(Dialog_Debug).GetMethodWithoutFlag(nameof(Dialog_Debug.ButtonDebugPinnable));
+			DefMaps = new DefMap[LENGTH];
+			harmony.Patch(method, transpiler: new HarmonyMethod(typeof(DevelopModeMod).GetMethod(nameof(Transpiler))));
 		}
-		static void Init()
+		public static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)
 		{
-			Serializer = new XmlSerializer(typeof(PatchConfig));
-			PatchMethod = new HarmonyMethod[4];
-			Type patch = typeof(PatchEx);
-			PatchMethod[0] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler0)));
-			PatchMethod[1] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler1)));
-			PatchMethod[2] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler2)));
-			PatchMethod[3] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.Transpiler3)));
-			TitlePatchMethod = new HarmonyMethod[4];
-			TitlePatchMethod[0] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle0)));
-			TitlePatchMethod[1] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle1)));
-			TitlePatchMethod[2] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle2)));
-			TitlePatchMethod[3] = new HarmonyMethod(patch.GetMethod(nameof(PatchEx.TranspilerTitle3)));
-			CacheType = new Dictionary<string, Type>();
-			CacheType.Add("DebugActionsMapManagement", typeof(DebugActionsMapManagement));
-			CacheType.Add("DebugThingPlaceHelper", typeof(DebugThingPlaceHelper));
-			CacheType.Add("DebugToolsGeneral", typeof(DebugToolsGeneral));
-			CacheType.Add("DebugToolsPawns", typeof(DebugToolsPawns));
-			CacheType.Add("DebugToolsSpawning", typeof(DebugToolsSpawning));
+			var list = new List<CodeInstruction>(instructions);
+			for (int i = 0; i <= list.Count; i++)
+			{
+				if (list[i].opcode == OpCodes.Ldarg_1)
+				{
+					i++;
+					return list.Take(i).Append(new CodeInstruction(OpCodes.Call, typeof(DevelopModeMod).GetMethod(nameof(FindLabelByDefName)))).Concat(list.Skip(i)).ToList();
+				}
+			}
+			Log.Error("Not found patch entity");
+			return instructions;
+		}
+		private static void Init()
+		{
+			DefMaps[THING_DEF] = new DefMap(" (minified)");
+			foreach (var def in DefDatabase<ThingDef>.AllDefs)
+			{
+				DefMaps[THING_DEF].Add(def.defName, def);
+			}
+			DefMaps[PAWNKINK_DEF] = new DefMap();
+			foreach (var def in DefDatabase<PawnKindDef>.AllDefs)
+			{
+				DefMaps[PAWNKINK_DEF].Add(def.defName, def);
+			}
+			DefMaps[XENOTYPE_DEF] = new DefMap();
+			foreach (var def in DefDatabase<XenotypeDef>.AllDefs)
+			{
+				DefMaps[XENOTYPE_DEF].Add(def.defName, def);
+			}
+			DefMaps[SKILL_DEF] = new DefMap();
+			foreach (var def in DefDatabase<SkillDef>.AllDefs)
+			{
+				DefMaps[SKILL_DEF].Add(def.defName, def);
+			}
+			DefMaps[MENTALBREAK_DEF] = new DefMap(" [NO]");
+			foreach (var def in DefDatabase<MentalBreakDef>.AllDefs)
+			{
+				DefMaps[MENTALBREAK_DEF].Add(def.defName, def);
+			}
+			DefMaps[TERRAIN_DEF] = new DefMap();
+			foreach (var def in DefDatabase<TerrainDef>.AllDefs)
+			{
+				DefMaps[TERRAIN_DEF].Add(def.defName, def);
+			}
+			DefMaps[INSPIRATION_DEF] = new DefMap();
+			foreach (var def in DefDatabase<InspirationDef>.AllDefs)
+			{
+				DefMaps[INSPIRATION_DEF].Add(def.defName, def);
+			}
+			DefMaps[DAMAGE_DEF] = new DefMap(" (Destroy part)");
+			foreach (var def in DefDatabase<DamageDef>.AllDefs)
+			{
+				DefMaps[DAMAGE_DEF].Add(def.defName, def);
+			}
 		}
 	}
 }

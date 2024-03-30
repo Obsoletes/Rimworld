@@ -51,18 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ModPatch\ModPatch.cs" />
-    <Compile Include="PatchConfig.cs" />
+    <Compile Include="DefMap.cs" />
     <Compile Include="DevelopModeMod.cs" />
-    <Compile Include="PatchNode.cs" />
-    <Compile Include="Patch.cs" />
-    <Compile Include="ModPatch\Vehicle_Patch.cs" />
     <Compile Include="TypeExtension.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Patch.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

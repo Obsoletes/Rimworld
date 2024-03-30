@@ -4,6 +4,7 @@
 	<author>Observer</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<packageId>Observer.developMode.fix</packageId>
 	<modDependencies>
