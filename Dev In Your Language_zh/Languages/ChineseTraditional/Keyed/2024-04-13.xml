@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <DebugAction_TestFadeoutAndSilence>淡出音樂並靜音</DebugAction_TestFadeoutAndSilence>
+  <DrawWoundAnchorsOnHover>滑鼠懸停時繪製傷口</DrawWoundAnchorsOnHover>
+  <DebugAction_TriggerMaintainedEffecter>Trigger maintained Effecter...</DebugAction_TriggerMaintainedEffecter>
+  <DrawFOVSymmetry>繪製視野</DrawFOVSymmetry>
+  <DebugAction_OpenCelestialDebugger>天空調試器</DebugAction_OpenCelestialDebugger>
+  <DebugAction_TriggerMaintainedEffecter5S>Trigger maintained Effecter (5s)...</DebugAction_TriggerMaintainedEffecter5S>
+  <DrawFleshmassHeartChance>繪製血肉塊心臟出現的機率</DrawFleshmassHeartChance>
+  <DebugAction_RecalculateThreatPoints>重新計算威脅點數</DebugAction_RecalculateThreatPoints>
+  <DebugAction_OpenMusicDebugger>音樂調試器</DebugAction_OpenMusicDebugger>
+  <LogPsychicRitualTransitions>記錄靈能儀式狀態</LogPsychicRitualTransitions>
+  <DebugAction_CompareLineOfSight>比較視線</DebugAction_CompareLineOfSight>
+  <DrawIndoorMask>繪製室內遮罩</DrawIndoorMask>
+  <EnableTranslationWindowInEnglish>Enable translation window in English</EnableTranslationWindowInEnglish>
+  <DebugAction_MeasureWorldDistance>測量距離</DebugAction_MeasureWorldDistance>
+  <DebugAction_AddInfectionPathway>添加感染途徑</DebugAction_AddInfectionPathway>
+  <DebugAction_EditAnimation>修改動作</DebugAction_EditAnimation>
+  <DrawOutRoofedMask>繪製有屋頂的室外遮罩</DrawOutRoofedMask>
+  <DebugAction_TriggerMaintainedEffecter12S>Trigger maintained Effecter (12s)...</DebugAction_TriggerMaintainedEffecter12S>
+  <DrawPatherState>Draw pather state</DrawPatherState>
+  <DrawHateChanterPositions>Draw hate chanter positions</DrawHateChanterPositions>
+  <DebugAction_LockRotation>鎖定旋轉方向</DebugAction_LockRotation>
+  <DebugAction_EmergeMetalhorrors>出現金屬怪形</DebugAction_EmergeMetalhorrors>
+  <AnomalyDarkeningFX>Anomaly DarkeningFX</AnomalyDarkeningFX>
+  <DebugAction_RaiseAsShambler>復活為蹣跚怪</DebugAction_RaiseAsShambler>
+  <DebugAction_SetAsGhoul>轉變為食屍鬼</DebugAction_SetAsGhoul>
+  <DebugAction_ToggleMaxMoveSpeed>切換為最大移速</DebugAction_ToggleMaxMoveSpeed>
+  <SearchIgnoresRestrictions>Search ignores restrictions</SearchIgnoresRestrictions>
+  <DebugAction_UnlockRotation>解鎖旋轉方向</DebugAction_UnlockRotation>
+  <ShowHiddenInfo>Show hidden info</ShowHiddenInfo>
+  <DebugAction_WaterEmergePawn>生成從水中出現的生物</DebugAction_WaterEmergePawn>
+  <DrawMapRooms>Drap map rooms</DrawMapRooms>
+  <DrawMapGraphs>Draw map graphs</DrawMapGraphs>
+  <DebugAction_FogRect>籠罩區域</DebugAction_FogRect>
+  <DebugAction_RitualSiegeWithSpecifics>執行靈能儀式襲擊</DebugAction_RitualSiegeWithSpecifics>
+  <DebugAction_SetGraphicsDirty>設置繪製狀態為髒</DebugAction_SetGraphicsDirty>
+  <DebugAction_GarbageCollectWorldPawn>GC世界生物</DebugAction_GarbageCollectWorldPawn>
+  <DrawDarknessOverlay>Draw darkness overlay</DrawDarknessOverlay>
+  <DebugAction_SpawnFlare>生成照明彈</DebugAction_SpawnFlare>
+  <DebugAction_PlayAnimation>播放動作</DebugAction_PlayAnimation>
+  <DebugAction_ToggleMovement>切換可移動</DebugAction_ToggleMovement>
+  <DebugAction_DiscoverAllEntities>發現所有實體</DebugAction_DiscoverAllEntities>
+  <DebugAction_TriggerTransition>觸發音樂過渡</DebugAction_TriggerTransition>
+  <DebugAction_CreateColonistDuplicate>複製一個殖民者</DebugAction_CreateColonistDuplicate>
+  <DebugAction_GeneratePocketMap>生成口袋地圖</DebugAction_GeneratePocketMap>
+  <PauseOnError>Pause on error</PauseOnError>
+  <DebugAction_SetAsShambler>轉變為蹣跚怪</DebugAction_SetAsShambler>
+  <DebugAction_Duplicate>複製生物</DebugAction_Duplicate>
+  <DebugAction_TestDeferredSpawner>測試延遲生成</DebugAction_TestDeferredSpawner>
+  <DebugAction_ViewRenderTree>查看繪製樹</DebugAction_ViewRenderTree>
+  <DebugAction_LogJobDetails>記錄工作詳細</DebugAction_LogJobDetails>
+  <DebugAction_SpawnFillArea>用X填滿區域</DebugAction_SpawnFillArea>
+  <DebugAction_SetMonolithLevel>設置異常水準</DebugAction_SetMonolithLevel>
+  <DebugAction_SpawnPitBurrow>生成地洞</DebugAction_SpawnPitBurrow>
+  <DebugAction_DestroyPlayerAnimals>摧毀玩家的動物</DebugAction_DestroyPlayerAnimals>
+  <DebugAction_HotReloadDefs>熱重載Defs</DebugAction_HotReloadDefs>
+  <DebugAction_Selected_SetTarget>設置為敵方的目標</DebugAction_Selected_SetTarget>
+  <DebugAction_OpenInfectionPathwayDebugger>感染方式調試器</DebugAction_OpenInfectionPathwayDebugger>
+  <DebugAction_DrawAttachPoints>繪製附加的點數</DebugAction_DrawAttachPoints>
+  <DebugAction_RevealHiddenDefs>展示隱藏的Defs</DebugAction_RevealHiddenDefs>
+  <DebugAction_UnfogRect>區域散霧</DebugAction_UnfogRect>
+  <DebugAction_SpawnPitGate>生成洞口</DebugAction_SpawnPitGate>
+  <DrawNonCombatantTimer>Draw non-combatant timer</DrawNonCombatantTimer>
+  <DebugAction_SpawnFleshmassHeart>生成血肉塊心臟</DebugAction_SpawnFleshmassHeart>
+  <SingleThreadedDrawing>Single threaded drawing</SingleThreadedDrawing>
+  <FastMonolithRespawn>Fast monoliths respawn</FastMonolithRespawn>
+  <DebugAction_TendBleedingHediffs>包紮流血傷口</DebugAction_TendBleedingHediffs>
+  <DebugAction_EditEffecter>Edit Effecter...</DebugAction_EditEffecter>
+  <DebugAction_GenerateCreeperJoiner>生成古怪同伴</DebugAction_GenerateCreeperJoiner>
+  <DebugAction_SpawnPawnWithLifestage>生成特定生命階段的生物</DebugAction_SpawnPawnWithLifestage>
+  <DebugAction_MaxGhoulUpgrades>最大食屍鬼升級</DebugAction_MaxGhoulUpgrades>
+  <DrawShamblerAlertMote>Draw shambler alert mote</DrawShamblerAlertMote>
+  <DebugAction_DestroyAllFire>滅火</DebugAction_DestroyAllFire>
+  <DebugAction_RevertMutant>復原突變</DebugAction_RevertMutant>
+  <ShowHiddenPawns>Show hidden Pawns</ShowHiddenPawns>
+</LanguageData>

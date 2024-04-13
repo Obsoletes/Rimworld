@@ -6,7 +6,7 @@ param (
 function Get-TranslateItem([System.IO.DirectoryInfo]$Folder) {
     $hashtable = @{}
     foreach ($file in $Folder.GetFiles('*.xml')) {
-        foreach ($node in (Select-Xml -Path $file -XPath '/LanguageData/*' | Select-Object -ExpandProperty Node)) {
+        foreach ($node in (Select-Xml -Path $file.FullName -XPath '/LanguageData/*' | Select-Object -ExpandProperty Node)) {
             $hashtable.Add($node.Name, @{
                     'Name' = $file.Name 
                     'Text' = $node.InnerText
@@ -16,7 +16,7 @@ function Get-TranslateItem([System.IO.DirectoryInfo]$Folder) {
     $hashtable
 }
 function New-Miss ([string] $path, [hashtable]$Diff) {
-    [string] $fileName = [datetime]::Now.ToString('yyyy-MM-dd.x\ml')
+    [string] $fileName = [datetime]::Now.ToString('yyyy-MM-dd.xml')
     $file = [System.IO.File]::OpenWrite([System.IO.Path]::Combine($path, $fileName))
     $writer = New-Object System.IO.StreamWriter $file
     $writer.WriteLine('<?xml version="1.0" encoding="UTF-8"?>')
