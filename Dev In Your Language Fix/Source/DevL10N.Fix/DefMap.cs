@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using Verse;
+using System;
 
 namespace DevL10N.Fix
 {
 	public class DefMap
 	{
+		public static Def EmptyDef = new Def();
 		public DefMap(string Postfix = null)
 		{
 			Map = new Dictionary<string, string>();
@@ -22,13 +24,18 @@ namespace DevL10N.Fix
 			result = defName;
 			return false;
 		}
-		public void Add(string defName, Def def)
+		public void Add<T>(string defName, T def, int debugIndex = 0, Func<T, string> selector = null) where T : Def
 		{
-			Map.Add(defName, def.label);
-		}
-		public void Add(string defName, string defTitle)
-		{
-			Map.Add(defName, defTitle);
+			if (defName == EmptyDef.defName)
+				return;
+			if (selector == null)
+				selector = d => d.label;
+			if (Map.TryGetValue(defName, out var _))
+			{
+				Log.Warning($"duplicate def defType:({debugIndex}) defName:({defName}) Mod:({def.modContentPack.Name})");
+			}
+			else
+				Map.Add(defName, selector(def));
 		}
 		public Dictionary<string, string> Map { get; set; }
 		private readonly string postfix;

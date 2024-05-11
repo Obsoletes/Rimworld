@@ -68,47 +68,47 @@ namespace DevelopMode
 			DefMaps[THING_DEF] = new DefMap(" (minified)");
 			foreach (var def in DefDatabase<ThingDef>.AllDefs)
 			{
-				DefMaps[THING_DEF].Add(def.defName, def);
+				DefMaps[THING_DEF].Add(def.defName, def, THING_DEF);
 			}
 			DefMaps[PAWNKINK_DEF] = new DefMap();
 			foreach (var def in DefDatabase<PawnKindDef>.AllDefs)
 			{
-				DefMaps[PAWNKINK_DEF].Add(def.defName, def);
+				DefMaps[PAWNKINK_DEF].Add(def.defName, def, PAWNKINK_DEF);
 			}
 			DefMaps[XENOTYPE_DEF] = new DefMap();
 			foreach (var def in DefDatabase<XenotypeDef>.AllDefs)
 			{
-				DefMaps[XENOTYPE_DEF].Add(def.defName, def);
+				DefMaps[XENOTYPE_DEF].Add(def.defName, def, XENOTYPE_DEF);
 			}
 			DefMaps[SKILL_DEF] = new DefMap();
 			foreach (var def in DefDatabase<SkillDef>.AllDefs)
 			{
-				DefMaps[SKILL_DEF].Add(def.defName, def);
+				DefMaps[SKILL_DEF].Add(def.defName, def, SKILL_DEF);
 			}
 			DefMaps[MENTALBREAK_DEF] = new DefMap(" [NO]");
 			foreach (var def in DefDatabase<MentalBreakDef>.AllDefs)
 			{
-				DefMaps[MENTALBREAK_DEF].Add(def.defName, def);
+				DefMaps[MENTALBREAK_DEF].Add(def.defName, def, MENTALBREAK_DEF);
 			}
 			DefMaps[TERRAIN_DEF] = new DefMap();
 			foreach (var def in DefDatabase<TerrainDef>.AllDefs)
 			{
-				DefMaps[TERRAIN_DEF].Add(def.defName, def);
+				DefMaps[TERRAIN_DEF].Add(def.defName, def, TERRAIN_DEF);
 			}
 			DefMaps[INSPIRATION_DEF] = new DefMap();
 			foreach (var def in DefDatabase<InspirationDef>.AllDefs)
 			{
-				DefMaps[INSPIRATION_DEF].Add(def.defName, def);
+				DefMaps[INSPIRATION_DEF].Add(def.defName, def, INSPIRATION_DEF);
 			}
 			DefMaps[DAMAGE_DEF] = new DefMap(" (Destroy part)");
 			foreach (var def in DefDatabase<DamageDef>.AllDefs)
 			{
-				DefMaps[DAMAGE_DEF].Add(def.defName, def);
+				DefMaps[DAMAGE_DEF].Add(def.defName, def, DAMAGE_DEF);
 			}
 			DefMaps[BACKSTORY_DEF] = new DefMap();
 			foreach (var def in DefDatabase<BackstoryDef>.AllDefs)
 			{
-				DefMaps[BACKSTORY_DEF].Add(def.defName, def.title);
+				DefMaps[BACKSTORY_DEF].Add(def.defName, def, BACKSTORY_DEF, d => d.title);
 			}
 		}
 	}
