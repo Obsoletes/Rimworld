@@ -19,8 +19,8 @@ namespace DevelopMode
 		const int TERRAIN_DEF = 5;
 		const int INSPIRATION_DEF = 6;
 		const int DAMAGE_DEF = 7;
-
-		const int LENGTH = DAMAGE_DEF + 1;
+		const int BACKSTORY_DEF = 8;
+		const int LENGTH = BACKSTORY_DEF + 1;
 		public static DefMap[] DefMaps { get; set; }
 		public static bool IsInit = false;
 		public static string FindLabelByDefName(string defName)
@@ -104,6 +104,11 @@ namespace DevelopMode
 			foreach (var def in DefDatabase<DamageDef>.AllDefs)
 			{
 				DefMaps[DAMAGE_DEF].Add(def.defName, def);
+			}
+			DefMaps[BACKSTORY_DEF] = new DefMap();
+			foreach (var def in DefDatabase<BackstoryDef>.AllDefs)
+			{
+				DefMaps[BACKSTORY_DEF].Add(def.defName, def.title);
 			}
 		}
 	}

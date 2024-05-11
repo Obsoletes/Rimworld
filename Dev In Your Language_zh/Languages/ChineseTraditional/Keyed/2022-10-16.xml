@@ -19,7 +19,7 @@
   <DebugMenu_DevPalette>開關開發者快捷版。允許你設置固定調試操作以便使用。</DebugMenu_DevPalette>
   <DebugAction_DamageUntilIncapableOfManipulation>傷害直到操作能力為零</DebugAction_DamageUntilIncapableOfManipulation>
   <DebugAction_PolluteRect>污染區域</DebugAction_PolluteRect>
-  <DebugAction_TryPlaceNearFullStack>在周圍放置X樣式的物品</DebugAction_TryPlaceNearFullStack>
+  <DebugAction_TryPlaceNearFullStack>在周圍放置一滿格的物品</DebugAction_TryPlaceNearFullStack>
   <SimulateUsingSteamDeck>模擬Steam Deck</SimulateUsingSteamDeck>
   <DrawUnpollutionCells>繪製無污染的區域（未使用）</DrawUnpollutionCells>
   <DebugAction_MakeInjuryPermanent>使損傷永久</DebugAction_MakeInjuryPermanent>

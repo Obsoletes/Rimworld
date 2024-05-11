@@ -7,16 +7,16 @@ namespace DevL10N.Fix
 	{
 		public DefMap(string Postfix = null)
 		{
-			Map = new Dictionary<string, Def>();
+			Map = new Dictionary<string, string>();
 			postfix = Postfix;
 		}
 		public bool DefNameToLabel(string defName, out string result)
 		{
 			var name = Transform(defName);
 			var needAddPostfix = name != defName;
-			if (Map.TryGetValue(name, out var def))
+			if (Map.TryGetValue(name, out var defTitle))
 			{
-				result = needAddPostfix ? AddPostfix(def.label) : def.label;
+				result = needAddPostfix ? AddPostfix(defTitle) : defTitle;
 				return true;
 			}
 			result = defName;
@@ -24,9 +24,13 @@ namespace DevL10N.Fix
 		}
 		public void Add(string defName, Def def)
 		{
-			Map.Add(defName, def);
+			Map.Add(defName, def.label);
 		}
-		public Dictionary<string, Def> Map { get; set; }
+		public void Add(string defName, string defTitle)
+		{
+			Map.Add(defName, defTitle);
+		}
+		public Dictionary<string, string> Map { get; set; }
 		private readonly string postfix;
 		private string Transform(string defName)
 		{
